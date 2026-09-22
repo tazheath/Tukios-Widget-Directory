@@ -1,7 +1,7 @@
 [
   {
     "id": "obits-1",
-    "thumbnail": "",
+    "thumbnail": "obits-1.png",
     "name": "Obits 1",
     "category": "",
     "demoLink": "",
@@ -12,7 +12,7 @@
   },
   {
     "id": "obits-2",
-    "thumbnail": "",
+    "thumbnail": "obits-2.png",
     "name": "Obits 2",
     "category": "",
     "demoLink": "",
@@ -23,7 +23,7 @@
   },
   {
     "id": "obits-6",
-    "thumbnail": "",
+    "thumbnail": "obits-6.png",
     "name": "Obits 6",
     "category": "",
     "demoLink": "",
@@ -34,7 +34,7 @@
   },
   {
     "id": "obits-infinite-slider",
-    "thumbnail": "",
+    "thumbnail": "obits-infinite-slider.png",
     "name": "Obits Infinite Slider",
     "category": "",
     "demoLink": "",
@@ -45,7 +45,7 @@
   },
   {
     "id": "obit-hover-cards",
-    "thumbnail": "",
+    "thumbnail": "obit-hover-cards.png",
     "name": "Obit Hover Cards",
     "category": "",
     "demoLink": "",
@@ -56,8 +56,30 @@
   },
   {
     "id": "obit-service-cards",
-    "thumbnail": "",
+    "thumbnail": "obit-service-cards.png",
     "name": "Obit Service Cards",
+    "category": "",
+    "demoLink": "",
+    "description": "",
+    "useCase": "",
+    "limitations": "",
+    "notes": ""
+  },
+  {
+    "id": "obituary-landscape-cards",
+    "thumbnail": "obituary-landscape-cards.png",
+    "name": "Obituary Landscape Cards",
+    "category": "",
+    "demoLink": "",
+    "description": "",
+    "useCase": "",
+    "limitations": "",
+    "notes": ""
+  },
+  {
+    "id": "obituary-slider",
+    "thumbnail": "obituary-slider.png",
+    "name": "Obituary Slider",
     "category": "",
     "demoLink": "",
     "description": "",
