@@ -1,8 +1,6 @@
 # Tukios Widget Directory
 
-Internal reference tool for browsing Tukios' custom DUDA widgets — search, filter by category,
-and see a screenshot before digging into the actual widget code. Standalone (no DUDA Widget
-Builder involved); hosted on GitHub and dropped into any page with one script tag.
+Internal reference tool for browsing Tukios' custom DUDA widgets — search, filter by category, and see a screenshot before digging into the actual widget code. Standalone (no DUDA Widget Builder involved); hosted on GitHub and dropped into any page with one script tag.
 
 ## Files
 
