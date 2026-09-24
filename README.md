@@ -35,8 +35,8 @@ No build step, no server-side code — plain JSON, so any text editor works.
 3. On the demo site page, add:
 
    ```html
-   <div id="tukios-widget-directory"></div>
-   <script src="https://cdn.jsdelivr.net/gh/<your-username>/<repo>@main/widget-directory.js"></script>
+    <div id="tukios-widget-directory"></div>
+    <script src="https://cdn.jsdelivr.net/gh/tazheath/Tukios-Widget-Directory@main/widget-directory.js"></script>
    ```
 
 That's the entire embed — no `<link>` tag needed. The script pulls its own CSS and JSON from
@@ -45,31 +45,3 @@ wherever *it's* hosted, not from the page it's dropped on.
 **Two things that matter for this to keep working:**
 - Don't add `async` to the script tag — it breaks the self-location lookup the script relies on. `defer`, or no attribute at all, is fine.
 - After pushing changes to `widget-data.json` or a new thumbnail, jsDelivr can take a few minutes (occasionally longer) to pick it up on the `@main` tag shown above. That's fine while you're actively populating this; once it's stable, switching to a version tag like `@v1.0.0` gives you reliable long-term caching instead.
-
-## Why one script tag is enough
-
-The script figures out its own URL at load time (`document.currentScript`) and fetches
-`widget-data.json` and images relative to *that* — not relative to whatever page it's embedded
-on. That's the only reason a single `<script src="...">` works no matter which Tukios site or
-demo page it sits on.
-
-## Intentionally left out of v1
-
-- **CSV export** — flagged as "probably never used." Easy to add back later; the old DUDA
-  widget's export logic can be adapted directly if that changes.
-- **Pagination** — at 50–100 rows, a plain scrollable list/grid performs fine, and search +
-  category filters narrow things down faster than paging would anyway.
-- **Table & Kanban views** — dropped in favor of just List + Grid, since this is a lookup tool
-  for a team, not a client-facing configurable widget.
-
-## Data to double check
-
-A couple of things pulled from your reference sheet that are worth confirming before you fill
-in the rest:
-
-- **"Testimonial Slider"** (categorized as Template in your sheet) doesn't have an exact name
-  match in your widget list — the list has both "Testimonial Page 1" and "Testimonial Slider 1."
-  Left both uncategorized rather than guessing which one it maps to.
-- **"Resource Builder"** (Popular, "Local Resources" type pages) wasn't in the visible widget
-  name list, but had full data in your reference sheet — included it as a 22nd entry. Remove it
-  if it's not actually part of the set you're tracking here.
