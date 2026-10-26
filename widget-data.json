@@ -8,7 +8,10 @@
     "description": "Obituaries displayed in a grid with the ability to change the number of obituaries displayed and the number of columns. Text is overlayed on top of the image.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "d897bbed6b544b64a831cbb3a8ef5a6d",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obits-2",
@@ -19,7 +22,10 @@
     "description": "Similar to Obits 1, obituaries are displayed in a grid with the ability to change the number of obituaries displayed and the number of columns. Text is shown below the image.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "8905afc7e3f842caaadb6cdb57778ee0",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obits-6",
@@ -30,7 +36,10 @@
     "description": "Each obituary is displayed as it's own card on a sliding grid.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "d7e5dfff1c59454aa9e9b091c6030c44",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obits-infinite-slider",
@@ -41,7 +50,10 @@
     "description": "Moving carousel showing the most recent 12 obituaries. The carousel pauses when hovered and displays the name and date of death for that obituary. Two rows can be enabled to show the most recent 24.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": "Row 1: 1-12, Row 2: 13-24"
+    "notes": "Row 1: 1-12, Row 2: 13-24",
+    "widgetId": "b7b502f0051142c79b485fc2538976c4",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obit-hover-cards",
@@ -52,7 +64,10 @@
     "description": "Obituaries displayed as hoverable cards with additional information revealed on hover.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "b94e4f8b3fe94ed685c3124b450a0f84",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obit-service-cards",
@@ -63,7 +78,10 @@
     "description": "Cards displaying upcoming funeral services for each Obituary with details like date, time, and location.",
     "useCase": "Upcoming Services page",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "244c1499ef854a439ecdd9883e9d826a",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obituary-landscape-cards",
@@ -74,18 +92,24 @@
     "description": "Landscape-oriented cards that display a preview of the obituary with a link to the full obituary page.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "b56f1db159624246a471cc8482ae70d6",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obituary-slider",
     "thumbnail": "obituary-slider.png",
-    "name": "Obituary Slider",
+    "name": "Obit Slider",
     "category": "additional",
     "demoLink": "https://www.sonzinimortuary.com/obituary-widgets/#a3814e0c",
     "description": "A slider widget for displaying a single obituary at a time in a horizontal carousel.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "347ed89a562c4336b96dcc01209606c8",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obit-page",
@@ -96,7 +120,10 @@
     "description": "Classic widget for the obit page with the cards stacked vertically. \"Simple Obit Card\" option hides the obituary preview and creates smaller cards in a 2 column grid.",
     "useCase": "Obituary page",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "2d918be729a04a8884cf8c3869e8a4f4",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "v2-obit-page",
@@ -107,7 +134,10 @@
     "description": "Search-and-filter obit page with cards in a responsive grid (3 columns on desktop, 2 on tablet, 1 on mobile) plus pagination. Visitors can search by name, filter by Veterans Only or obituary text, narrow by date range, and filter by location when enabled. Configurable options include circle or black-and-white images, custom button labels, and hiding dates or branch.",
     "useCase": "Obituary Page",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "9f06c98642774bc2bee2df3e66291a20",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obituary-search",
@@ -115,10 +145,13 @@
     "name": "Obituary Search",
     "category": "template",
     "demoLink": "https://www.sonzinimortuary.com/#1641784833",
-    "description": "Search widget for finding obituaries by name. Redirects to the obituary page and uses the obituary page widget to display search results.",
+    "description": "Search widget for finding obituaries by name. Redirects to the obituary page with search results.",
     "useCase": "Homepage",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "c8ab07047da947b2bdc59cc45d9f458e",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "email-subscribe",
@@ -126,10 +159,13 @@
     "name": "Email Subscribe",
     "category": "template",
     "demoLink": "https://www.sonzinimortuary.com/obituary-grid#b88e46fc",
-    "description": "2 Widgets in 1: Obituary Notifications subscribe form & Grief Steps subscribe form",
+    "description": "2 Widgets in 1: Obituary Notifications Subscribe Form and Grief Steps Subscribe Form",
     "useCase": "Footer, Obituary page, Obituary Notifications page",
     "limitations": "",
-    "notes": "Multi-location can be enabled. You can also collect the person's First & Last name if the funeral home requests it."
+    "notes": "Multi-location can be enabled. You can also collect the person's First & Last name if the funeral home requests it.",
+    "widgetId": "a18e18a2ec234231ab94990be802ee83",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "send-flowers",
@@ -140,7 +176,10 @@
     "description": "Version 1 of our Send Flowers widget on the send flowers page.",
     "useCase": "Send Flowers page",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "02550d2e07d14fdb96156900a12b2283",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "v2-send-flowers",
@@ -151,7 +190,10 @@
     "description": "Version 2 of our Send Flowers widget on the send flowers page with enhanced card layout.",
     "useCase": "Send Flowers page",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "bef6910e9fae49a9aa1c712ed85889fd",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "merchandise",
@@ -162,7 +204,10 @@
     "description": "First version of our Merchandise widget. Change sort order of items and whether they are displayed in a grid or list layout.",
     "useCase": "Merchandise page",
     "limitations": "No price filter, No category dropdown: Categories are displayed in a row above the merchandise.",
-    "notes": ""
+    "notes": "",
+    "widgetId": "f1d49e514c6d4cd9bdaac9cf77500fd7",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "merchandise-v2",
@@ -173,29 +218,52 @@
     "description": "Version 2 of our Merchandise widget with improved layout and additional features such as price filtering.",
     "useCase": "Merchandise page",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "985fa341e6c940afb1a93bfff830994a",
+    "widgetVersion": "",
+    "widgetSettings": {}
+  },
+  {
+    "id": "webpro-showroom",
+    "thumbnail": "",
+    "name": "WebPro Showroom",
+    "category": "",
+    "demoLink": "",
+    "description": "",
+    "useCase": "",
+    "limitations": "",
+    "notes": "",
+    "widgetId": "9e4784495ffa457db88a5a8ea6517c87",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "testimonial-page-1",
-    "thumbnail": "testimonial-page.png",
+    "thumbnail": "",
     "name": "Testimonial Page 1",
     "category": "template",
-    "demoLink": "https://www.sonzinimortuary.com/testimonials#0919e32f",
-    "description": "Display testimonials in a continuous list view.",
-    "useCase": "Testimonial page",
+    "demoLink": "",
+    "description": "",
+    "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "e67fd380b6ae48219da4b1cf25543ff0",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "testimonial-slider-1",
-    "thumbnail": "testimonial-slider.png",
-    "name": "Testimonial Slider",
+    "thumbnail": "",
+    "name": "Testimonial Slider 1",
     "category": "template",
-    "demoLink": "https://www.sonzinimortuary.com/testimonials/#9de7dc0f",
-    "description": "Display testimonials in a slider format.",
-    "useCase": "Testimonial page",
+    "demoLink": "",
+    "description": "",
+    "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "5f071727a71047a98082d6194273f99e",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "google-reviews-v2",
@@ -206,7 +274,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "41f842c730f640aaabb0616dd7994ac6",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "multi-location-map",
@@ -217,7 +288,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "e79c30693fe44d3685a600dc2f3b3622",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "tukios-staff-widget",
@@ -228,7 +302,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "54c3cf547fb74270add760aa4c7ae25d",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "staff-on-page-grid",
@@ -239,7 +316,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "faf7f8b0121048c394dba543a9530b1c",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "staff-on-page-list",
@@ -250,7 +330,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "c4c5945e5d5f47768c330c10f4a933cd",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "service-calendar",
@@ -261,7 +344,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "4b98cd58643447bd927c4758c077b014",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "event-calendar",
@@ -272,7 +358,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "27d7191985674b0194110bf614488a9a",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "event-slider",
@@ -283,7 +372,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "f4b3d40792024bb68d20cc6a8f35d01f",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "grief-resources",
@@ -294,7 +386,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "7020e1254bd14425a1cc497aabf05622",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "preplanning-resources",
@@ -305,7 +400,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "abc00df1a40f4a70970a202b82b60b31",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "privacy-policy",
@@ -316,7 +414,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "defb7e5296e34831a5070fcf82efd890",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "terms-of-use",
@@ -327,7 +428,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "d63052a23a6c43b6a1e5dec4908364ca",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "footer-nav-masonry",
@@ -338,7 +442,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "6feb90f5752b467bbfef486065a7b641",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "custom-copyright-2",
@@ -349,7 +456,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "30c5b9e57eb14998838c5ff93aff493a",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "comparison-table",
@@ -360,7 +470,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "22d7edd570744ea688cfee900b4ce13e",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "header-ctas-flex",
@@ -371,7 +484,24 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "1ec24720cc794bdfa0006cfac110eb1f",
+    "widgetVersion": "",
+    "widgetSettings": {}
+  },
+  {
+    "id": "header-cta-2-0",
+    "thumbnail": "",
+    "name": "Header CTA 2.0",
+    "category": "",
+    "demoLink": "",
+    "description": "",
+    "useCase": "",
+    "limitations": "",
+    "notes": "",
+    "widgetId": "9dd2773ea94d4dad9b30b9d1c097cf5c",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "dynamic-link",
@@ -382,7 +512,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "539f466474d94aeeaa21137aa77ae146",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "pdf-to-flipbook",
@@ -393,7 +526,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "94832082b46d4e7caa83931b682a2821",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "resource-builder",
@@ -404,7 +540,10 @@
     "description": "",
     "useCase": "\"Local Resources\" type pages",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "130bfd9ada864788986844b46d8b9da3",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "sub-nav-with-sub-folders",
@@ -415,7 +554,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "8b0be2d93b0e4954bd9511e4c432429c",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "expandable-link-list",
@@ -426,7 +568,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "bc5fc67eb4084007a81005eb41fa16fb",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "hoverable-dropdown",
@@ -437,7 +582,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "7632bc6139a84c4fa77fbdabd3010ab6",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "infinite-logo-slider",
@@ -448,7 +596,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "9b1b2ac5c83b46fb80b2ea8fdaf430df",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "obit-search-dropdown",
@@ -459,7 +610,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "3b9e8a0eef554050bd599e5ee93d6e32",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "yahrzeit-calculator",
@@ -470,7 +624,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "8cbc84bd5d164b9197f5327ec04702b5",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "hebrew-calendar",
@@ -481,7 +638,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "0a4b142574b84c7bba3d406d188a52cc",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "images-to-mock-video",
@@ -492,7 +652,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "2ae3eeaf98234a24b000bb6914bd3f30",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "location-slider",
@@ -503,7 +666,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "fe0bc24d49b5430a89ada8ffeb1d2473",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "multi-step-preplan-form",
@@ -514,7 +680,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "abfc3bfd92474eb8a3c9532923686a91",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "park-lawn-terms-of-service",
@@ -525,7 +694,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "84fc0dc09a4e41359c4dc2e927acfc7d",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "park-lawn-privacy-policy",
@@ -536,7 +708,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "066681caab06479ea58e476d930bc132",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "pinnacle-veteran-services",
@@ -547,7 +722,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "1950f3b405b8407d8c41c0389c1f1573",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "pinnacle-social-security-benefits",
@@ -558,7 +736,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "068cadd371a84f83a57fd064ed67c207",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "pinnacle-grief-support-group",
@@ -569,7 +750,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "26272af8970f43c6bdd07cafebfc2f12",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "pinnacle-grief-resources",
@@ -580,7 +764,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "d91ff11f66444fac9e2809227d609029",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "cadence",
@@ -591,7 +778,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "66232e89d5f24a68979f5bb96b460305",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "pl-cumulus",
@@ -602,7 +792,10 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "c01363f6cc914b27a55e31afee09aa68",
+    "widgetVersion": "",
+    "widgetSettings": {}
   },
   {
     "id": "plcorp-grief-resources",
@@ -613,6 +806,9 @@
     "description": "",
     "useCase": "",
     "limitations": "",
-    "notes": ""
+    "notes": "",
+    "widgetId": "8aefd962627846f1ac8e56f2e086465b",
+    "widgetVersion": "",
+    "widgetSettings": {}
   }
 ]
