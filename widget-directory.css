@@ -157,8 +157,8 @@
 
 .twd-widget-directory .twd-thumb-img,
 .twd-widget-directory .twd-thumb-placeholder {
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 100px;
   border-radius: 8px;
   object-fit: cover;
   border: 1px solid var(--twd-border);
@@ -198,6 +198,7 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
 }
 

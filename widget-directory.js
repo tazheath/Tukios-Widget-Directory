@@ -1,24 +1,7 @@
-/**
- * Tukios Internal Widget Directory
- * ---------------------------------
- * Self-mounting embed. Drop this on any page along with:
- *
- *   <div id="tukios-widget-directory"></div>
- *   <script src="[hosted URL]/widget-directory.js"></script>
- *
- * The script resolves its own hosted location (document.currentScript)
- * and fetches widget-data.json + thumbnail_imgs/ relative to THAT —
- * not relative to the page it's embedded on. That's what makes a single
- * <script> tag enough, no matter which site it's dropped into.
- *
- * Don't add `async` to the script tag — it breaks the self-location
- * lookup below, since it must run synchronously as the script parses.
- * `defer`, or no attribute at all, is fine.
- */
+
 (function () {
   'use strict';
 
-  // --- Resolve this script's own base URL --------------------------------
   var SCRIPT_EL = document.currentScript;
   var BASE_URL = SCRIPT_EL
     ? SCRIPT_EL.src.substring(0, SCRIPT_EL.src.lastIndexOf('/') + 1)
@@ -44,8 +27,6 @@
   };
 
   var els = {};
-
-  // --- Helpers -------------------------------------------------------------
 
   function escapeHtml(str) {
     if (str === null || str === undefined) return '';
@@ -110,8 +91,6 @@
     return null;
   }
 
-  // --- Filtering -------------------------------------------------------------
-
   function applyFilters() {
     var term = state.searchTerm.trim().toLowerCase();
     state.filteredData = state.allData.filter(function (row) {
@@ -121,8 +100,6 @@
       return haystack.indexOf(term) !== -1;
     });
   }
-
-  // --- Rendering -------------------------------------------------------------
 
   function renderCount() {
     var total = state.allData.length;
@@ -181,8 +158,6 @@
     bindThumbErrors(els.grid);
   }
 
-  // --- Detail modal ------------------------------------------------------------
-
   function openModal(row) {
     els.modalBody.innerHTML =
       '<div class="twd-modal-thumb">' + thumbHTML(row) + '</div>' +
@@ -207,8 +182,6 @@
     els.modal.setAttribute('aria-hidden', 'true');
     if (state.lastFocused && typeof state.lastFocused.focus === 'function') state.lastFocused.focus();
   }
-
-  // --- Shell markup --------------------------------------------------------------
 
   function shellHTML() {
     var categoryButtons = CATEGORIES.map(function (c) {
@@ -259,8 +232,6 @@
       '<p>Check that widget-data.json is hosted next to widget-directory.js.</p></div>';
   }
 
-  // --- Events ------------------------------------------------------------------
-
   function bindEvents(container) {
     els.search.addEventListener('input', function (e) {
       state.searchTerm = e.target.value;
@@ -292,7 +263,7 @@
     });
 
     container.addEventListener('click', function (e) {
-      if (e.target.closest('.twd-demo-link')) return; // let the link navigate normally
+      if (e.target.closest('.twd-demo-link')) return;
       var card = e.target.closest('[data-id]');
       if (card) {
         var row = findRow(card.getAttribute('data-id'));
@@ -314,8 +285,6 @@
       if (e.key === 'Escape' && els.modal.style.display !== 'none') closeModal();
     });
   }
-
-  // --- Mount -----------------------------------------------------------------
 
   function mount() {
     var container = document.getElementById('tukios-widget-directory');
