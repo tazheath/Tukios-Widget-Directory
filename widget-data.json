@@ -10,8 +10,31 @@
     "limitations": "",
     "notes": "",
     "widgetId": "d897bbed6b544b64a831cbb3a8ef5a6d",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "450",
+    "widgetSettings": {
+      "obitCount": "12",
+      "nextText": "Next",
+      "prevText": "Previous",
+      "scrollOffset": "180",
+      "locationNav": [
+        {
+          "locationName": "Location 1"
+        },
+        {
+          "locationName": "Location 1"
+        }
+      ],
+      "newEnv": "prod",
+      "loadingTextColor": "#000000",
+      "isSquare": false,
+      "hideCity": true,
+      "photoGap": "0",
+      "hoverAnimation": "photoZoom",
+      "wipeColor": "#8b0000",
+      "imgObjectFit": "cover",
+      "obitLayout": "sixCol",
+      "filterNavGap": "30"
+    }
   },
   {
     "id": "obits-2",
@@ -24,8 +47,36 @@
     "limitations": "",
     "notes": "",
     "widgetId": "8905afc7e3f842caaadb6cdb57778ee0",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "564",
+    "widgetSettings": {
+      "obitCount": "12",
+      "hideSliderNavBorder": false,
+      "hideCityResidence": false,
+      "unabrMonth": false,
+      "locationNav": [
+        {
+          "locationName": "Location"
+        },
+        {
+          "locationName": "Location"
+        }
+      ],
+      "newEnv": "prod",
+      "loadingTextColor": "#000000",
+      "lineHeight": "initial",
+      "nameLineHeight": "24",
+      "obitLayout": "sixCol",
+      "gridGap": "5",
+      "objectFit": "cover",
+      "transparentBorderWidth": "1px",
+      "transparentBorderColor": "#fb0cff",
+      "useArrowDesign": false,
+      "arrowDesignNext": "2B9E",
+      "arrowDesignPrev": "2B9C",
+      "fontawesomeIconNext": "<i class=\"fas fa-arrow-left\"></i>",
+      "fontawesomeIconPrev": "<i class=\"fas fa-arrow-right\"></i>",
+      "filterNavGap": "30"
+    }
   },
   {
     "id": "obits-6",
@@ -38,8 +89,35 @@
     "limitations": "",
     "notes": "",
     "widgetId": "d7e5dfff1c59454aa9e9b091c6030c44",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "255",
+    "widgetSettings": {
+      "numOfCols": "12",
+      "numOfRows": "3",
+      "newEnv": "prod",
+      "loadingTextColor": "#000000",
+      "arrowSize": "12",
+      "navArrowColor": "#1e3783",
+      "navArrowHoverColor": "#64709a",
+      "arrowBackgroundColor": "#ffffff",
+      "arrowHoverBackgroundColor": "#ffffff",
+      "activeDotColor": "#1e3783",
+      "btnIconColor": "#ffffff",
+      "btnHoverIconColor": "#1e3783",
+      "btnHoverBackgroundColor": "#ffffff",
+      "btnBorderHoverColor": "#ffffff",
+      "obitBackgroundColor": "#ffffff",
+      "obitBackgroundHoverColor": "#1e3783",
+      "marginLeftRight": "5",
+      "marginTopBottom": "10",
+      "paddingTop": "0",
+      "paddingBottom": "0",
+      "paddingLeft": "0",
+      "paddingRight": "8",
+      "nameHoverColor": "#ffffff",
+      "dateHoverColor": "#ffffff",
+      "branchHoverColor": "#ffffff",
+      "cityHoverColor": "#ffffff"
+    }
   },
   {
     "id": "obits-infinite-slider",
@@ -52,8 +130,18 @@
     "limitations": "",
     "notes": "Row 1: 1-12, Row 2: 13-24",
     "widgetId": "b7b502f0051142c79b485fc2538976c4",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "40",
+    "widgetSettings": {
+      "obitCount": "10",
+      "showCity": false,
+      "newTab": true,
+      "newEnv": "prod",
+      "topScrollDirection": "left",
+      "topScrollSpeed": "slow",
+      "bottomScrollDirection": "right",
+      "bottomScrollSpeed": "slow",
+      "loadingTextColor": "#4a4a4a"
+    }
   },
   {
     "id": "obit-hover-cards",
@@ -66,8 +154,34 @@
     "limitations": "",
     "notes": "",
     "widgetId": "b94e4f8b3fe94ed685c3124b450a0f84",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "164",
+    "widgetSettings": {
+      "obitCount": "4",
+      "obitLayout": "4",
+      "prevText": "Previous",
+      "nextText": "Next",
+      "showArrowIcon": true,
+      "showCity": true,
+      "showBranch": true,
+      "showDateOfBirth": false,
+      "locationNav": [
+        {
+          "locationName": "Location 1"
+        },
+        {
+          "locationName": "Location 1"
+        }
+      ],
+      "scrollOffset": "180",
+      "newEnv": "prod",
+      "arrowIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->\r\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg fill=\"#000000\" version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \r\n\t width=\"800px\" height=\"800px\" viewBox=\"0 0 8 8\" enable-background=\"new 0 0 8 8\" xml:space=\"preserve\">\r\n<rect x=\"2.95\" y=\"1.921\" transform=\"matrix(-0.7071 -0.7071 0.7071 -0.7071 7.6689 8.4842)\" width=\"5.283\" height=\"1.466\"/>\r\n<rect x=\"0.024\" y=\"3.157\" width=\"6.375\" height=\"1.683\"/>\r\n<rect x=\"2.956\" y=\"4.615\" transform=\"matrix(-0.7069 0.7073 -0.7073 -0.7069 13.3369 5.1684)\" width=\"5.284\" height=\"1.465\"/>\r\n</svg>",
+      "navArrowColor": "#000000",
+      "arrowIconColor": "#ffffff",
+      "animationType": "raiseCard",
+      "imgObjectFit": "cover",
+      "loadingTextColor": "#000000",
+      "filterNavGap": "30"
+    }
   },
   {
     "id": "obit-service-cards",
@@ -80,8 +194,23 @@
     "limitations": "",
     "notes": "",
     "widgetId": "244c1499ef854a439ecdd9883e9d826a",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "10",
+    "widgetSettings": {
+      "numberOfCards": "6",
+      "allLocationsText": "All Locations",
+      "locations": [
+        {
+          "locationName": "Location Name"
+        },
+        {
+          "locationName": "Location Name"
+        }
+      ],
+      "newLinkText": false,
+      "obitLinkText": "View Obituary →",
+      "carouselCardCount": "6",
+      "noBoxShadow": false
+    }
   },
   {
     "id": "obituary-landscape-cards",
@@ -94,8 +223,15 @@
     "limitations": "",
     "notes": "",
     "widgetId": "b56f1db159624246a471cc8482ae70d6",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "15",
+    "widgetSettings": {
+      "obitCount": "6",
+      "arrowIcon": "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n\r<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->\n<svg width=\"800px\" height=\"800px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\r<g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"/>\n\r<g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n\r<g id=\"SVGRepo_iconCarrier\"> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z\" fill=\"#ffffff\"/> </g>\n\r</svg>",
+      "newEnv": "prod",
+      "prevArrowSize": "38",
+      "nextArrowSize": "38",
+      "loadingTextColor": "#000000"
+    }
   },
   {
     "id": "obituary-slider",
@@ -108,8 +244,17 @@
     "limitations": "",
     "notes": "",
     "widgetId": "347ed89a562c4336b96dcc01209606c8",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "15",
+    "widgetSettings": {
+      "numOfObits": "8",
+      "numOfCharsMobile": "120",
+      "viewTributeButtonText": "Visit Tribute",
+      "sendFlowersButtonText": "Send Flowers",
+      "viewLivestreamButtonText": "View Livestream",
+      "newEnv": "prod",
+      "customEnvironment": "http://localhost",
+      "errorTextColor": "#000000"
+    }
   },
   {
     "id": "obit-page",
@@ -122,8 +267,22 @@
     "limitations": "",
     "notes": "",
     "widgetId": "2d918be729a04a8884cf8c3869e8a4f4",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "360",
+    "widgetSettings": {
+      "scrollOffset": "180",
+      "visitObitText": "Visit Obituary",
+      "sendFlowersText": "Send Flowers",
+      "searchPlaceholder": "Find a loved one...",
+      "viewLivestreamText": "Livestream",
+      "treeSalesText": "Plant A Tree",
+      "giftSalesText": "Send A Gift",
+      "obitsPerPage": "10",
+      "newEnv": "prod",
+      "themeColor": "#0073c0",
+      "useCards": true,
+      "obituaryItemHeight": "180",
+      "buttonStyle": "pill"
+    }
   },
   {
     "id": "v2-obit-page",
@@ -136,8 +295,27 @@
     "limitations": "",
     "notes": "",
     "widgetId": "9f06c98642774bc2bee2df3e66291a20",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "41",
+    "widgetSettings": {
+      "searchText": "Find a loved one...",
+      "showLocationDropdown": false,
+      "allLocationsText": "All Locations",
+      "locations": [
+        {
+          "locationName": "Location Name"
+        },
+        {
+          "locationName": "Location Name"
+        }
+      ],
+      "numberOfObits": "6",
+      "loadingTextColor": "#000000",
+      "targetBlank": true,
+      "newEnv": "production",
+      "flowersButtonText": "Flowers",
+      "obituaryButtonText": "Obituary",
+      "obitLineHeight": "1.3"
+    }
   },
   {
     "id": "obituary-search",
@@ -150,8 +328,16 @@
     "limitations": "",
     "notes": "",
     "widgetId": "c8ab07047da947b2bdc59cc45d9f458e",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "121",
+    "widgetSettings": {
+      "listingPage": {
+        "href": "/home"
+      },
+      "placeholder": "Search Obituaries...",
+      "searchBtnText": "Search",
+      "searchIcon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"magnifying-glass\" class=\"svg-inline--fa fa-magnifying-glass\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z\"></path></svg>",
+      "showSearchIcon": true
+    }
   },
   {
     "id": "email-subscribe",
@@ -164,8 +350,15 @@
     "limitations": "",
     "notes": "Multi-location can be enabled. You can also collect the person's First & Last name if the funeral home requests it.",
     "widgetId": "a18e18a2ec234231ab94990be802ee83",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "247",
+    "widgetSettings": {
+      "placeholder": "Email Address",
+      "btn_text": "Subscribe",
+      "form_type": "obits",
+      "allLocationsText": "All Locations",
+      "gh-t-tag": "h6",
+      "newEnv": "prod"
+    }
   },
   {
     "id": "send-flowers",
@@ -178,8 +371,23 @@
     "limitations": "",
     "notes": "",
     "widgetId": "02550d2e07d14fdb96156900a12b2283",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "160",
+    "widgetSettings": {
+      "buttonText": "SEND FLOWERS",
+      "obitNumber": "12",
+      "deskNumCols": "repeat(3,1fr)",
+      "tabletNumCols": "repeat(2, 1fr)",
+      "mobileNumCols": "repeat(2, 1fr)",
+      "prevIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n\n<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->\n<svg width=\"800px\" height=\"800px\" viewBox=\"0 0 16 16\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" id=\"svg2\" version=\"1.1\">\n\n<metadata id=\"metadata7\">\n\n<rdf:RDF>\n\n<cc:Work>\n\n<dc:format>image/svg+xml</dc:format>\n\n<dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n\n<dc:title/>\n\n<dc:date>2021</dc:date>\n\n<dc:creator>\n\n<cc:Agent>\n\n<dc:title>Timothée Giet</dc:title>\n\n</cc:Agent>\n\n</dc:creator>\n\n<cc:license rdf:resource=\"http://creativecommons.org/licenses/by-sa/4.0/\"/>\n\n</cc:Work>\n\n<cc:License rdf:about=\"http://creativecommons.org/licenses/by-sa/4.0/\">\n\n<cc:permits rdf:resource=\"http://creativecommons.org/ns#Reproduction\"/>\n\n<cc:permits rdf:resource=\"http://creativecommons.org/ns#Distribution\"/>\n\n<cc:requires rdf:resource=\"http://creativecommons.org/ns#Notice\"/>\n\n<cc:requires rdf:resource=\"http://creativecommons.org/ns#Attribution\"/>\n\n<cc:permits rdf:resource=\"http://creativecommons.org/ns#DerivativeWorks\"/>\n\n<cc:requires rdf:resource=\"http://creativecommons.org/ns#ShareAlike\"/>\n\n</cc:License>\n\n</rdf:RDF>\n\n</metadata>\n\n<g id=\"layer1\" transform=\"rotate(45 1254.793 524.438)\">\n\n<path style=\"fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" d=\"M15.464 1044.409v-1.997h-9v-9h-2v11z\" id=\"path4179\"/>\n\n</g>\n\n</svg>",
+      "nextIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n\n<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->\n<svg width=\"800px\" height=\"800px\" viewBox=\"0 0 16 16\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" id=\"svg2\" version=\"1.1\">\n\n<metadata id=\"metadata7\">\n\n<rdf:RDF>\n\n<cc:Work>\n\n<dc:format>image/svg+xml</dc:format>\n\n<dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n\n<dc:title/>\n\n<dc:date>2021</dc:date>\n\n<dc:creator>\n\n<cc:Agent>\n\n<dc:title>Timothée Giet</dc:title>\n\n</cc:Agent>\n\n</dc:creator>\n\n<cc:license rdf:resource=\"http://creativecommons.org/licenses/by-sa/4.0/\"/>\n\n</cc:Work>\n\n<cc:License rdf:about=\"http://creativecommons.org/licenses/by-sa/4.0/\">\n\n<cc:permits rdf:resource=\"http://creativecommons.org/ns#Reproduction\"/>\n\n<cc:permits rdf:resource=\"http://creativecommons.org/ns#Distribution\"/>\n\n<cc:requires rdf:resource=\"http://creativecommons.org/ns#Notice\"/>\n\n<cc:requires rdf:resource=\"http://creativecommons.org/ns#Attribution\"/>\n\n<cc:permits rdf:resource=\"http://creativecommons.org/ns#DerivativeWorks\"/>\n\n<cc:requires rdf:resource=\"http://creativecommons.org/ns#ShareAlike\"/>\n\n</cc:License>\n\n</rdf:RDF>\n\n</metadata>\n\n<g id=\"layer1\" transform=\"rotate(45 1254.793 524.438)\">\n\n<path style=\"fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\" d=\"M11.532 1048.341H9.536v-9h-9v-2h11z\" id=\"path4179\"/>\n\n</g>\n\n</svg>",
+      "newEnv": "prod",
+      "loadingTextColor": "#000000",
+      "deskAlignButton": "flex-start",
+      "tabletAlignButton": "flex-start",
+      "mobileAlignButton": "center",
+      "containerBoxShadow": "#ffffff",
+      "shadowBottomThickness": "3"
+    }
   },
   {
     "id": "v2-send-flowers",
@@ -192,8 +400,16 @@
     "limitations": "",
     "notes": "",
     "widgetId": "bef6910e9fae49a9aa1c712ed85889fd",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "6",
+    "widgetSettings": {
+      "numberOfObits": "12",
+      "loadingTextColor": "#000000",
+      "monthDayDates": true,
+      "hideDateofBirth": true,
+      "newEnv": "production",
+      "flowersButtonText": "Send Flowers",
+      "hideDivider": true
+    }
   },
   {
     "id": "merchandise",
@@ -206,8 +422,18 @@
     "limitations": "No price filter, No category dropdown: Categories are displayed in a row above the merchandise.",
     "notes": "",
     "widgetId": "f1d49e514c6d4cd9bdaac9cf77500fd7",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "648",
+    "widgetSettings": {
+      "perPage": "10",
+      "numberOfPageLinks": "10",
+      "defaultSort": "asc",
+      "defaultView": "list",
+      "searchPlaceholder": "Search...",
+      "removeBrList": true,
+      "categoryColor": "#0b1a32",
+      "catAllCaps": true,
+      "nextPrevAllCaps": true
+    }
   },
   {
     "id": "merchandise-v2",
@@ -220,8 +446,15 @@
     "limitations": "",
     "notes": "",
     "widgetId": "985fa341e6c940afb1a93bfff830994a",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "14",
+    "widgetSettings": {
+      "merchPerPage": "6",
+      "categoryFilter": true,
+      "priceFilter": true,
+      "sortFilter": true,
+      "defaultView": "grid",
+      "buttonText": "View Details"
+    }
   },
   {
     "id": "webpro-showroom",
@@ -234,7 +467,7 @@
     "limitations": "",
     "notes": "",
     "widgetId": "9e4784495ffa457db88a5a8ea6517c87",
-    "widgetVersion": "",
+    "widgetVersion": "1",
     "widgetSettings": {}
   },
   {
@@ -248,8 +481,14 @@
     "limitations": "",
     "notes": "",
     "widgetId": "e67fd380b6ae48219da4b1cf25543ff0",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "89",
+    "widgetSettings": {
+      "sortBy": "none",
+      "itemsToDisplay": "all",
+      "newEnv": "prod",
+      "loadingTextColor": "#000000",
+      "alignStars": "flex-start"
+    }
   },
   {
     "id": "testimonial-slider-1",
@@ -262,8 +501,21 @@
     "limitations": "",
     "notes": "",
     "widgetId": "5f071727a71047a98082d6194273f99e",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "325",
+    "widgetSettings": {
+      "sortBy": "none",
+      "itemsToDisplay": "all",
+      "autoPlaySpeed": "5000",
+      "speed": "1000",
+      "arrows": true,
+      "autoPlay": false,
+      "infinite": true,
+      "draggable": true,
+      "dots": true,
+      "newEnv": "prod",
+      "loadingTextColor": "#000000",
+      "arrowDesigns": "default"
+    }
   },
   {
     "id": "google-reviews-v2",
@@ -276,8 +528,10 @@
     "limitations": "",
     "notes": "",
     "widgetId": "41f842c730f640aaabb0616dd7994ac6",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "14",
+    "widgetSettings": {
+      "layout": "carousel"
+    }
   },
   {
     "id": "multi-location-map",
@@ -290,8 +544,53 @@
     "limitations": "",
     "notes": "",
     "widgetId": "e79c30693fe44d3685a600dc2f3b3622",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "367",
+    "widgetSettings": {
+      "headerTitle": "EXPLORE OUR LOCATIONS",
+      "headerSubtext": "Find a location that best fits your needs",
+      "funeralHome": [
+        {
+          "fhPhoto": "https://lirp.cdn-website.com/1a449e22/dms3rep/multi/opt/l21-1920w.jpg",
+          "fhName": "Fake Funeral Home",
+          "longitude": "41.20169105793315",
+          "latitude": "-111.97044618848062",
+          "address": "123 Fake Street, Fake City, FA 12345",
+          "popupAddress": "<p class=\"rteBlock\">123 Fake Street</p><p class=\"rteBlock\">Fake City, FA 12345</p>",
+          "getDirectionsButtonText": "Get Directions",
+          "openNewTab": true,
+          "phoneNumber": "555-555-5555",
+          "phoneNumber2": "555-555-5555"
+        }
+      ],
+      "DesktopZoomOffset": "0",
+      "DesktopMapPaddingTop": "0",
+      "DesktopMapPaddingLeft": "0",
+      "DesktopMapPaddingBottom": "0",
+      "DesktopMapPaddingRight": "0",
+      "MobileZoomOffset": "0",
+      "MobileMapPaddingTop": "0",
+      "MobileMapPaddingLeft": "0",
+      "MobileMapPaddingBottom": "0",
+      "MobileMapPaddingRight": "0",
+      "mapBoxTiles": true,
+      "mapBoxID": "mapbox/streets-v11",
+      "filterTileLayer": true,
+      "filterBrightness": true,
+      "brightnessTenth": "1",
+      "brightnessHundredth": "1",
+      "filterOpacity": true,
+      "opacity": "85",
+      "hueDeg": "47",
+      "brightnessTenthHover": "0",
+      "brightnessHundredthHover": "9",
+      "opacityHover": "0",
+      "hueDegHover": "47",
+      "svgIconHover": "#395585",
+      "svgSelectedIconHover": "#ff0000",
+      "active-hover-bg": "#395585",
+      "thumb-color": "#a9a9a9",
+      "track-color": "#dcdcdc"
+    }
   },
   {
     "id": "tukios-staff-widget",
@@ -304,8 +603,45 @@
     "limitations": "",
     "notes": "",
     "widgetId": "54c3cf547fb74270add760aa4c7ae25d",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "89",
+    "widgetSettings": {
+      "columns": "1",
+      "staff": [
+        {
+          "hide-image": false,
+          "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/staff-img-placeholder-4301e1dd.png",
+          "staff-name": "Staff Name",
+          "staff-position": "Staff Position",
+          "show-bio-preview": true,
+          "call-button-text": "Call",
+          "email-button-text": "Email"
+        },
+        {
+          "hide-image": false,
+          "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/staff-img-placeholder-4301e1dd.png",
+          "staff-name": "Staff Name",
+          "staff-position": "Staff Position",
+          "show-bio-preview": true,
+          "call-button-text": "Call",
+          "email-button-text": "Email"
+        },
+        {
+          "hide-image": false,
+          "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/staff-img-placeholder-4301e1dd.png",
+          "staff-name": "Staff Name",
+          "staff-position": "Staff Position",
+          "show-bio-preview": true,
+          "call-button-text": "Call",
+          "email-button-text": "Email"
+        }
+      ],
+      "bio-button": "Read Bio",
+      "showMore": false,
+      "staffLimit": "1",
+      "showMoreBtnText": "Show More Staff",
+      "button-align": "left",
+      "limitBtnAlign": "flex-start"
+    }
   },
   {
     "id": "staff-on-page-grid",
@@ -318,8 +654,28 @@
     "limitations": "",
     "notes": "",
     "widgetId": "faf7f8b0121048c394dba543a9530b1c",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "120",
+    "widgetSettings": {
+      "staff": [
+        {
+          "image": "https://tukios-website-assets.s3.amazonaws.com/default-assets/avatar.png",
+          "hasBio": true,
+          "altBioImageToggle": false,
+          "altBioImage": "https://tukios-website-assets.s3.amazonaws.com/default-assets/avatar.png",
+          "bio": "<br>",
+          "btn_text": "READ BIO",
+          "btn_email_text": "EMAIL",
+          "btn_email_link": {
+            "href": "/home"
+          },
+          "btn_phone_text": "CALL",
+          "btn_phone_link": {
+            "href": "/home"
+          }
+        }
+      ],
+      "numberOfColumns": "threeCol"
+    }
   },
   {
     "id": "staff-on-page-list",
@@ -332,8 +688,17 @@
     "limitations": "",
     "notes": "",
     "widgetId": "c4c5945e5d5f47768c330c10f4a933cd",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "97",
+    "widgetSettings": {
+      "staff": [
+        {
+          "bio": "<br>",
+          "img": "https://tukios-website-assets.s3.amazonaws.com/default-assets/avatar.png",
+          "img2": "https://tukios-website-assets.s3.amazonaws.com/default-assets/avatar.png"
+        }
+      ],
+      "bio-scroll": false
+    }
   },
   {
     "id": "service-calendar",
@@ -346,8 +711,74 @@
     "limitations": "",
     "notes": "",
     "widgetId": "4b98cd58643447bd927c4758c077b014",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "294",
+    "widgetSettings": {
+      "displayNameOptions": "fullName",
+      "maxEvents": "4",
+      "initialView": "listView",
+      "badgeColorConfig": "Type",
+      "coloredCheckbox": true,
+      "showEventFilter": true,
+      "showBranchFilter": false,
+      "sidebarLocation": "right",
+      "typeFilterTitle": "Type",
+      "branchFilterTitle": "Branch",
+      "eventFilter": true,
+      "showVisitation": true,
+      "showBurial": true,
+      "showViewing": true,
+      "showFS": true,
+      "showMS": true,
+      "showGS": true,
+      "showPS": true,
+      "showMG": true,
+      "showCL": true,
+      "showMass": true,
+      "showInter": true,
+      "showCremation": true,
+      "showRosary": true,
+      "showInurnment": true,
+      "showVisitationWithFamily": true,
+      "showOther": true,
+      "showNextPrev": true,
+      "showToday": true,
+      "showTitle": true,
+      "showMonth": true,
+      "showWeek": true,
+      "showDay": true,
+      "showList": true,
+      "newEnv": "prod",
+      "loadingTextColor": "#000000",
+      "defaultCheckboxColor": "#1a252f",
+      "branch1BadgeColor": "#800000",
+      "branch2BadgeColor": "#e6194b",
+      "branch3BadgeColor": "#eea47f",
+      "branch4BadgeColor": "#f58231",
+      "branch5BadgeColor": "#3cb44b",
+      "branch6BadgeColor": "#4363d8",
+      "branch7BadgeColor": "#911eb4",
+      "branch8BadgeColor": "#a9a9a9",
+      "branch9BadgeColor": "#808000",
+      "branch10BadgeColor": "#469990",
+      "branch11BadgeColor": "#54a096",
+      "branch12BadgeColor": "#3f760e",
+      "branch13BadgeColor": "#4f3d3d",
+      "branch14BadgeColor": "#4d487d",
+      "branch15BadgeColor": "#804271",
+      "visitationBadgeColor": "#800000",
+      "burialBadgeColor": "#e6194b",
+      "viewingBadgeColor": "#eea47f",
+      "funeralServiceBadgeColor": "#f58231",
+      "memorialServiceBadgeColor": "#3cb44b",
+      "gravesideServiceBadgeColor": "#4363d8",
+      "prayerServiceBadgeColor": "#911eb4",
+      "memorialGatheringBadgeColor": "#a9a9a9",
+      "celebrationOfLifeBadgeColor": "#808000",
+      "massBadgeColor": "#469990",
+      "IntermentBadgeColor": "#000075",
+      "cremationBadgeColor": "#f032e6",
+      "otherBadgeColor": "#f8b226"
+    }
   },
   {
     "id": "event-calendar",
@@ -360,8 +791,25 @@
     "limitations": "",
     "notes": "",
     "widgetId": "27d7191985674b0194110bf614488a9a",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "36",
+    "widgetSettings": {
+      "maxEvents": "4",
+      "nextButtonText": "Next Month",
+      "prevButtonText": "Last Month",
+      "initialView": "dayGridMonth",
+      "initialViewMobile": "listMonth",
+      "showNextPrev": true,
+      "showToday": true,
+      "showMonth": true,
+      "showWeek": true,
+      "showDay": true,
+      "showList": true,
+      "showTitle": true,
+      "newEnv": "prod",
+      "customEnvironment": "http://localhost",
+      "loadingTextColor": "#000000",
+      "badgeColor": "#48449c"
+    }
   },
   {
     "id": "event-slider",
@@ -374,8 +822,14 @@
     "limitations": "",
     "notes": "",
     "widgetId": "f4b3d40792024bb68d20cc6a8f35d01f",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "211",
+    "widgetSettings": {
+      "headerText": "Upcoming Events",
+      "numberOfEvents": "6",
+      "newEnv": "prod",
+      "customEnvironment": "http://localhost",
+      "errorTextColor": "#000000"
+    }
   },
   {
     "id": "grief-resources",
@@ -388,8 +842,30 @@
     "limitations": "",
     "notes": "",
     "widgetId": "7020e1254bd14425a1cc497aabf05622",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "62",
+    "widgetSettings": {
+      "addAdditionalResources": false,
+      "showNationalHospice": true,
+      "contentLineHeight": "1.4",
+      "hideChainSVG": false,
+      "showWhatsYourGrief": true,
+      "showEverythingAfter": true,
+      "additionalResource": [
+        {
+          "resourceImage": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/resource-placeholder-image.jpg",
+          "titleText": "Resource Title",
+          "resourceBtnText": "Learn More",
+          "descText": "Add description of this resource",
+          "reverseCol": true
+        }
+      ],
+      "showCrisisGriefAndHealing": true,
+      "showMISSFoundation": true,
+      "showAllianceOfHope": true,
+      "showGriefShare": true,
+      "showGrieving": true,
+      "showDougyCenter": false
+    }
   },
   {
     "id": "preplanning-resources",
@@ -402,8 +878,18 @@
     "limitations": "",
     "notes": "",
     "widgetId": "abc00df1a40f4a70970a202b82b60b31",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "27",
+    "widgetSettings": {
+      "additionalResource": [
+        {
+          "resourceImage": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/resource-placeholder-image.jpg",
+          "titleText": "Resource Title",
+          "descText": "Add description of this resource",
+          "resourceBtnText": "Learn More"
+        }
+      ],
+      "hideChainSVG": true
+    }
   },
   {
     "id": "privacy-policy",
@@ -416,8 +902,14 @@
     "limitations": "",
     "notes": "",
     "widgetId": "defb7e5296e34831a5070fcf82efd890",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "34",
+    "widgetSettings": {
+      "fhName": "Taz Test Site",
+      "smsTitle": "SMS Text Messaging",
+      "hideTextShadow": true,
+      "smsDesc": "<p class=\"rteBlock\">Our website may offer the option to receive service updates, appointment information, or other communications by SMS text message. These messages are delivered through a third-party service provider. By choosing to receive text messages, you acknowledge that your mobile number and related data will be shared with that provider solely for the purpose of sending SMS communications.</p><br><p class=\"rteBlock\"><strong>Your Consent</strong></p><p class=\"rteBlock\">Text messages are sent only to individuals who have opted in. You may opt out at any time by replying STOP to any message you receive. Once you opt out, you will stop receiving SMS communications unless you choose to opt in again.</p><br><p class=\"rteBlock\"><strong>Message &amp; Data Rates</strong></p><p class=\"rteBlock\">Message and data rates may apply based on your mobile carrier and plan. The funeral home is not responsible for any fees charged by your carrier.</p><br><p class=\"rteBlock\"><strong>Information Handling</strong></p><p class=\"rteBlock\">The third-party provider may collect your mobile number, message preferences, and any information you submit as part of your SMS participation. This information is used only to deliver the messages you request and to support the SMS program. We do not sell or share your mobile number or SMS participation details with other third parties for marketing purposes.</p><br><p class=\"rteBlock\"><strong>Third-Party Practices</strong></p><p class=\"rteBlock\">Because the SMS program is operated by an external provider, their privacy practices and terms may also apply. We encourage you to review their policies if you have questions about how your information is managed.</p>",
+      "smsSection": false
+    }
   },
   {
     "id": "terms-of-use",
@@ -430,8 +922,13 @@
     "limitations": "",
     "notes": "",
     "widgetId": "d63052a23a6c43b6a1e5dec4908364ca",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "22",
+    "widgetSettings": {
+      "fhName": "Taz Test Site",
+      "smsTitle": "SMS Text Messaging Terms",
+      "hideTextShadow": true,
+      "smsDesc": "<p class=\"rteBlock\">By opting in to receive SMS text messages from our website, you agree to the following terms. SMS communications offered through this site are delivered by a third-party service provider. Your participation in the SMS program is voluntary.</p><br><p class=\"rteBlock\"><strong>Use of the Service</strong></p><p class=\"rteBlock\">By providing your mobile number and opting in, you authorize our third-party provider to send you text messages related to services, scheduling, updates, or other information you have requested. Message frequency may vary. </p><br><p class=\"rteBlock\"><strong>User Responsibilities</strong></p><p class=\"rteBlock\">You agree that the mobile number you provide is your own and that you are authorized to receive messages at that number. You are responsible for ensuring your contact information remains accurate.</p><br><p class=\"rteBlock\"><strong>Opt-Out</strong></p><p class=\"rteBlock\">You may opt out of SMS messaging at any time by replying STOP to any message. After opting out, you will no longer receive text messages unless you opt in again.</p><br><p class=\"rteBlock\"><strong>Third-Party Operation</strong></p><p class=\"rteBlock\">Because SMS services are facilitated by an external provider, their terms and policies may also apply in addition to these Terms of Use. We are not responsible for delays, failures, or errors in message delivery caused by the third-party provider or your mobile carrier.</p><br><p class=\"rteBlock\"><strong>Message &amp; Data Rates</strong></p><p class=\"rteBlock\">Standard message and data rates may apply. You are solely responsible for any fees charged by your mobile carrier.</p><br><p class=\"rteBlock\"><strong>No Warranties</strong></p><p class=\"rteBlock\">SMS messaging is provided on an “as available” basis. We do not guarantee message delivery times or uninterrupted access to the SMS service.</p>"
+    }
   },
   {
     "id": "footer-nav-masonry",
@@ -444,8 +941,23 @@
     "limitations": "",
     "notes": "",
     "widgetId": "6feb90f5752b467bbfef486065a7b641",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "437",
+    "widgetSettings": {
+      "folders": [
+        {
+          "currentFolder": "About Us"
+        }
+      ],
+      "titleCaseMainNav": true,
+      "looseLinksTitle": "HELPFUL LINKS",
+      "titleLetterSpacing": "0",
+      "footerNavLinkActive": "#ffffff",
+      "desktopTextAlign": "CENTER",
+      "tabletTextAlign": "CENTER",
+      "mobileTextAlign": "CENTER",
+      "numOfColumnsDesktop": "2",
+      "numOfColumnsTablet": "2"
+    }
   },
   {
     "id": "custom-copyright-2",
@@ -458,8 +970,15 @@
     "limitations": "",
     "notes": "",
     "widgetId": "30c5b9e57eb14998838c5ff93aff493a",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "23",
+    "widgetSettings": {
+      "funeralHomeName": "Funeral Home Name",
+      "copyrightext": ". All Rights Reserved.",
+      "ssoSlug": "newcomer",
+      "adminlogin": true,
+      "admintext": "Admin Login",
+      "states": "none"
+    }
   },
   {
     "id": "comparison-table",
@@ -472,8 +991,78 @@
     "limitations": "",
     "notes": "",
     "widgetId": "22d7edd570744ea688cfee900b4ce13e",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "4",
+    "widgetSettings": {
+      "activeColumns": "3",
+      "featuredColumn": "1",
+      "col1Name": "Location A",
+      "col2Name": "Location B",
+      "col3Name": "Location C",
+      "col4Name": "Location D",
+      "col5Name": "Location E",
+      "rows": [
+        {
+          "label": "Service Name",
+          "c1type": "check",
+          "c1text": "$1,495",
+          "c2type": "check",
+          "c2text": "$1,695",
+          "c3type": "check",
+          "c4type": "check",
+          "c5type": "check"
+        },
+        {
+          "label": "Service Name",
+          "c1type": "check",
+          "c1text": "$1,495",
+          "c2type": "check",
+          "c2text": "$1,695",
+          "c3type": "check",
+          "c4type": "check",
+          "c5type": "check"
+        },
+        {
+          "label": "Service Name",
+          "c1type": "check",
+          "c1text": "$1,495",
+          "c2type": "check",
+          "c2text": "$1,695",
+          "c3type": "check",
+          "c4type": "check",
+          "c5type": "check"
+        },
+        {
+          "label": "Service Name",
+          "c1type": "check",
+          "c1text": "$1,495",
+          "c2type": "check",
+          "c2text": "$1,695",
+          "c3type": "check",
+          "c4type": "check",
+          "c5type": "check"
+        },
+        {
+          "label": "Service Name",
+          "c1type": "check",
+          "c1text": "$1,495",
+          "c2type": "check",
+          "c2text": "$1,695",
+          "c3type": "check",
+          "c4type": "check",
+          "c5type": "check"
+        },
+        {
+          "label": "Service Name",
+          "c1type": "check",
+          "c1text": "$1,495",
+          "c2type": "check",
+          "c2text": "$1,695",
+          "c3type": "check",
+          "c4type": "check",
+          "c5type": "check"
+        }
+      ]
+    }
   },
   {
     "id": "header-ctas-flex",
@@ -486,8 +1075,68 @@
     "limitations": "",
     "notes": "",
     "widgetId": "1ec24720cc794bdfa0006cfac110eb1f",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "181",
+    "widgetSettings": {
+      "headerLink": [
+        {
+          "hasIcon": true,
+          "ctaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
+          "overwriteColor": true,
+          "removeWhiteSpace": false,
+          "button": true,
+          "ctaText": "Contact Us"
+        },
+        {
+          "hasIcon": true,
+          "ctaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
+          "overwriteColor": true,
+          "removeWhiteSpace": false,
+          "button": true,
+          "ctaText": "Contact Us"
+        },
+        {
+          "hasIcon": true,
+          "ctaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
+          "overwriteColor": true,
+          "removeWhiteSpace": false,
+          "button": true,
+          "ctaText": "Contact Us"
+        }
+      ],
+      "dynamicCtaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
+      "overwriteColor": true,
+      "removeWhiteSpace": true,
+      "dynamicText": "555-555-5555",
+      "dynamicLinkText": "Immediate Need: *link*",
+      "linkType": "phone",
+      "showDropdown": false,
+      "dropdownLabel": "Call Us 24/7",
+      "ddhasIcon": false,
+      "ctaIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 122.88 122.27\" style=\"enable-background:new 0 0 122.88 122.27\" xml:space=\"preserve\"><g><path d=\"M33.84,50.25c4.13,7.45,8.89,14.6,15.07,21.12c6.2,6.56,13.91,12.53,23.89,17.63c0.74,0.36,1.44,0.36,2.07,0.11 c0.95-0.36,1.92-1.15,2.87-2.1c0.74-0.74,1.66-1.92,2.62-3.21c3.84-5.05,8.59-11.32,15.3-8.18c0.15,0.07,0.26,0.15,0.41,0.21 l22.38,12.87c0.07,0.04,0.15,0.11,0.21,0.15c2.95,2.03,4.17,5.16,4.2,8.71c0,3.61-1.33,7.67-3.28,11.1 c-2.58,4.53-6.38,7.53-10.76,9.51c-4.17,1.92-8.81,2.95-13.27,3.61c-7,1.03-13.56,0.37-20.27-1.69 c-6.56-2.03-13.17-5.38-20.39-9.84l-0.53-0.34c-3.31-2.07-6.89-4.28-10.4-6.89C31.12,93.32,18.03,79.31,9.5,63.89 C2.35,50.95-1.55,36.98,0.58,23.67c1.18-7.3,4.31-13.94,9.77-18.32c4.76-3.84,11.17-5.94,19.47-5.2c0.95,0.07,1.8,0.62,2.25,1.44 l14.35,24.26c2.1,2.72,2.36,5.42,1.21,8.12c-0.95,2.21-2.87,4.25-5.49,6.15c-0.77,0.66-1.69,1.33-2.66,2.03 c-3.21,2.33-6.86,5.02-5.61,8.18L33.84,50.25L33.84,50.25L33.84,50.25z\"/></g></svg>",
+      "ddoverwriteColor": true,
+      "dropdownItem": [
+        {
+          "dropdownLinkText": "<p class=\"rteBlock\">Location: (555) 555-5555</p>",
+          "dropdownLink": {
+            "href": "/home"
+          }
+        },
+        {
+          "dropdownLinkText": "<p class=\"rteBlock\">Location: (555) 555-5555</p>",
+          "dropdownLink": {
+            "href": "/home"
+          }
+        },
+        {
+          "dropdownLinkText": "<p class=\"rteBlock\">Location: (555) 555-5555</p>",
+          "dropdownLink": {
+            "href": "/home"
+          }
+        }
+      ],
+      "justify-content": "flex-end",
+      "flex-direction": "row"
+    }
   },
   {
     "id": "header-cta-2-0",
@@ -500,8 +1149,71 @@
     "limitations": "",
     "notes": "",
     "widgetId": "9dd2773ea94d4dad9b30b9d1c097cf5c",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "8",
+    "widgetSettings": {
+      "headerLink": [
+        {
+          "hasIcon": true,
+          "ctaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
+          "overwriteColor": true,
+          "removeWhiteSpace": true,
+          "button": true,
+          "ctaText": "Contact Us"
+        },
+        {
+          "hasIcon": true,
+          "ctaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
+          "overwriteColor": true,
+          "removeWhiteSpace": true,
+          "button": true,
+          "ctaText": "Contact Us"
+        },
+        {
+          "hasIcon": true,
+          "ctaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
+          "overwriteColor": true,
+          "removeWhiteSpace": true,
+          "button": true,
+          "ctaText": "Contact Us"
+        }
+      ],
+      "dynamicLink": false,
+      "dynamicHasIcon": false,
+      "dynamicCtaIcon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg width=\"100pt\" height=\"100pt\" version=\"1.1\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n <path d=\"m92.898 73.102-17.598-10.902c-2.6992-1.6992-6.1992-1.1992-8.3984 1.1992-1.6992 1.8008-3.3008 3.6992-5 5.5-2 2.1992-5.3984 2.6992-7.8984 1.1016-4.1992-2.6016-9.1992-6.3008-14.102-11.398-5.1016-5.3008-8.6016-10.602-11.102-15-1.3008-2.3984-0.80078-5.3984 1.1992-7.3008l6.1016-5.5c2.1992-2 2.6992-5.1992 1.3984-7.8008l-9.1016-16.898c-1.8984-3.5-6.1992-4.6992-9.6016-2.6016h-0.10156c-12.195 7.5-18.996 17.398-11.594 36.102 4.1992 10.602 11.5 22.699 22.699 34 10.699 10.801 19 16.102 28.602 20.5 14.102 6.5 24.801 3.1016 31.602-5.3984 1.5-2 3.1016-3.8984 4.6016-5.8984 2.3945-3.1055 1.5938-7.6055-1.707-9.7031z\"/>\n</svg>\n",
+      "removeWhiteSpace": true,
+      "overwriteColor": true,
+      "dynamicText": "555-555-5555",
+      "dynamicRichText": true,
+      "dynamicLinkText": "Immediate Need: *link*",
+      "linkType": "phone",
+      "dropdownLabel": "Call Us 24/7",
+      "ddhasIcon": false,
+      "ctaIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 122.88 122.27\" style=\"enable-background:new 0 0 122.88 122.27\" xml:space=\"preserve\"><g><path d=\"M33.84,50.25c4.13,7.45,8.89,14.6,15.07,21.12c6.2,6.56,13.91,12.53,23.89,17.63c0.74,0.36,1.44,0.36,2.07,0.11 c0.95-0.36,1.92-1.15,2.87-2.1c0.74-0.74,1.66-1.92,2.62-3.21c3.84-5.05,8.59-11.32,15.3-8.18c0.15,0.07,0.26,0.15,0.41,0.21 l22.38,12.87c0.07,0.04,0.15,0.11,0.21,0.15c2.95,2.03,4.17,5.16,4.2,8.71c0,3.61-1.33,7.67-3.28,11.1 c-2.58,4.53-6.38,7.53-10.76,9.51c-4.17,1.92-8.81,2.95-13.27,3.61c-7,1.03-13.56,0.37-20.27-1.69 c-6.56-2.03-13.17-5.38-20.39-9.84l-0.53-0.34c-3.31-2.07-6.89-4.28-10.4-6.89C31.12,93.32,18.03,79.31,9.5,63.89 C2.35,50.95-1.55,36.98,0.58,23.67c1.18-7.3,4.31-13.94,9.77-18.32c4.76-3.84,11.17-5.94,19.47-5.2c0.95,0.07,1.8,0.62,2.25,1.44 l14.35,24.26c2.1,2.72,2.36,5.42,1.21,8.12c-0.95,2.21-2.87,4.25-5.49,6.15c-0.77,0.66-1.69,1.33-2.66,2.03 c-3.21,2.33-6.86,5.02-5.61,8.18L33.84,50.25L33.84,50.25L33.84,50.25z\"/></g></svg>",
+      "ddoverwriteColor": true,
+      "ddremoveWhiteSpace": true,
+      "dropdownItem": [
+        {
+          "dropdownLinkText": "Location: (555) 555-5555",
+          "dropdownLink": {
+            "href": "/home"
+          }
+        },
+        {
+          "dropdownLinkText": "Location: (555) 555-5555",
+          "dropdownLink": {
+            "href": "/home"
+          }
+        },
+        {
+          "dropdownLinkText": "Location: (555) 555-5555",
+          "dropdownLink": {
+            "href": "/home"
+          }
+        }
+      ],
+      "justify-content": "flex-end",
+      "flex-direction": "row"
+    }
   },
   {
     "id": "dynamic-link",
@@ -514,8 +1226,22 @@
     "limitations": "",
     "notes": "",
     "widgetId": "539f466474d94aeeaa21137aa77ae146",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "82",
+    "widgetSettings": {
+      "phoneIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.2\" baseProfile=\"tiny-ps\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\">\r\n\t<title>call_black_24dp (3) (1)-svg</title>\r\n\t<path fill=\"000000\" id=\"Layer\" d=\"M20.01 15.38C18.78 15.38 17.59 15.18 16.48 14.82C16.13 14.7 15.74 14.79 15.47 15.06L13.9 17.03C11.07 15.68 8.42 13.13 7.01 10.2L8.96 8.54C9.23 8.26 9.31 7.87 9.2 7.52C8.83 6.41 8.64 5.22 8.64 3.99C8.64 3.45 8.19 3 7.65 3L4.19 3C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82L21 16.37C21 15.83 20.55 15.38 20.01 15.38Z\"/>\r\n</svg>",
+      "overwriteColor": true,
+      "removeWhiteSpace": true,
+      "linkType": "phone",
+      "addressStyle": "oneLine",
+      "linkText": "555-555-5555",
+      "text": "<p class=\"rteBlock\">*link*</p>",
+      "linkText2": "555-555-5555",
+      "linkType2": "phone",
+      "addressStyle2": "oneLine",
+      "multipleLink": "555-555-5555/n555-555-5555",
+      "multiLinkType": "phone",
+      "justifyContent": "flex-start"
+    }
   },
   {
     "id": "pdf-to-flipbook",
@@ -528,8 +1254,10 @@
     "limitations": "",
     "notes": "",
     "widgetId": "94832082b46d4e7caa83931b682a2821",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "9",
+    "widgetSettings": {
+      "pdfUrl": "https://irp.cdn-website.com/5a1a405e/files/uploaded/Tukios+PDF.pdf"
+    }
   },
   {
     "id": "resource-builder",
@@ -542,8 +1270,39 @@
     "limitations": "",
     "notes": "",
     "widgetId": "130bfd9ada864788986844b46d8b9da3",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "19",
+    "widgetSettings": {
+      "numCols": "3",
+      "numColsTab": "3",
+      "resourceCard": [
+        {
+          "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/PLACEHOLDER+IMAGE.png",
+          "resourceIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 117.52 122.88\" style=\"enable-background:new 0 0 117.52 122.88\" xml:space=\"preserve\"><g><path d=\"M81.58,79.21c-8.16,2.61-14.62,8.87-18.76,16.52c2.74-14.44,6.24-31.51,1.21-45.79c7.34,7.34,15.51-2.78,9.82-8.47 l-5.37-5.37h7.59c8.5,0,8.5-12.94,0-12.94h-7.59l5.37-5.37c6.01-6.01-3.14-15.16-9.15-9.15l-5.37,5.37v-7.6 c0-8.59-12.94-8.52-12.94,0v7.59l-5.37-5.37c-6.01-6.01-15.16,3.14-9.15,9.15l5.37,5.37h-7.6c-8.5,0-8.5,12.94,0,12.94l7.6,0 l-5.37,5.37c-6.01,6.01,3.14,15.16,9.15,9.15l5.37-5.37v7.6c0,8.21,12.94,9.24,12.94-0.78c1.61,9.46-2.32,27.71-4.04,44.03 c-4.05-8.08-10.71-14.59-19.36-16.88l-0.03,0c21.38-0.73,15.17-23.97-7.05-5.62c4.83-12.01,2.45-18.06-3.64-22.96 c-6.26,4.7-6.41,13.14-2.92,22.72C12.88,65.12,5.66,65.42,0,69.15c3.96,9.61,10.69,11.14,20.12,9.53C9.95,85.67,6.38,92.46,9.86,99 c8.68-0.85,13.13-6.91,15.06-16.88c2.39,11.26,7.66,16.61,15.99,17.11c1.73-6.48-0.15-12.77-9.44-19.15 c10.96,2.96,19.15,11.72,23.28,22.07c-0.5,7.45-0.27,14.16,1.51,18.97c0.52,1.44,1.99,2.13,3.28,1.56c1.29-0.58,1.92-2.21,1.4-3.64 c-0.68-2.81-0.66-6.25-0.26-10.14c1.43-6.58,4.53-13.16,9.18-18.49c4.16-4.79,9.6-8.55,16.16-10.32 c-9.29,6.37-11.17,12.67-9.44,19.15c8.33-0.49,13.6-5.84,15.99-17.11c1.94,9.97,6.39,16.03,15.06,16.88 c3.48-6.54-0.09-13.33-10.25-20.32c9.42,1.61,16.15,0.08,20.12-9.53c-5.66-3.74-12.88-4.03-22.29,4.2 c3.49-9.58,3.34-18.02-2.92-22.72c-6.09,4.9-8.47,10.95-3.64,22.96c-22.22-18.35-28.43,4.89-7.05,5.62L81.58,79.21L81.58,79.21z M52.87,22.91c3.71,0,6.72,3.01,6.72,6.72s-3.01,6.72-6.72,6.72c-3.71,0-6.72-3.01-6.72-6.72S49.16,22.91,52.87,22.91L52.87,22.91z\"/></g></svg>",
+          "resourceTitle": "Resource Title",
+          "resourceDesc": "<p class=\"rteBlock\">The description or additional informaiton goes here.</p>",
+          "buttonText": "Learn More"
+        },
+        {
+          "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/PLACEHOLDER+IMAGE.png",
+          "resourceIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 117.52 122.88\" style=\"enable-background:new 0 0 117.52 122.88\" xml:space=\"preserve\"><g><path d=\"M81.58,79.21c-8.16,2.61-14.62,8.87-18.76,16.52c2.74-14.44,6.24-31.51,1.21-45.79c7.34,7.34,15.51-2.78,9.82-8.47 l-5.37-5.37h7.59c8.5,0,8.5-12.94,0-12.94h-7.59l5.37-5.37c6.01-6.01-3.14-15.16-9.15-9.15l-5.37,5.37v-7.6 c0-8.59-12.94-8.52-12.94,0v7.59l-5.37-5.37c-6.01-6.01-15.16,3.14-9.15,9.15l5.37,5.37h-7.6c-8.5,0-8.5,12.94,0,12.94l7.6,0 l-5.37,5.37c-6.01,6.01,3.14,15.16,9.15,9.15l5.37-5.37v7.6c0,8.21,12.94,9.24,12.94-0.78c1.61,9.46-2.32,27.71-4.04,44.03 c-4.05-8.08-10.71-14.59-19.36-16.88l-0.03,0c21.38-0.73,15.17-23.97-7.05-5.62c4.83-12.01,2.45-18.06-3.64-22.96 c-6.26,4.7-6.41,13.14-2.92,22.72C12.88,65.12,5.66,65.42,0,69.15c3.96,9.61,10.69,11.14,20.12,9.53C9.95,85.67,6.38,92.46,9.86,99 c8.68-0.85,13.13-6.91,15.06-16.88c2.39,11.26,7.66,16.61,15.99,17.11c1.73-6.48-0.15-12.77-9.44-19.15 c10.96,2.96,19.15,11.72,23.28,22.07c-0.5,7.45-0.27,14.16,1.51,18.97c0.52,1.44,1.99,2.13,3.28,1.56c1.29-0.58,1.92-2.21,1.4-3.64 c-0.68-2.81-0.66-6.25-0.26-10.14c1.43-6.58,4.53-13.16,9.18-18.49c4.16-4.79,9.6-8.55,16.16-10.32 c-9.29,6.37-11.17,12.67-9.44,19.15c8.33-0.49,13.6-5.84,15.99-17.11c1.94,9.97,6.39,16.03,15.06,16.88 c3.48-6.54-0.09-13.33-10.25-20.32c9.42,1.61,16.15,0.08,20.12-9.53c-5.66-3.74-12.88-4.03-22.29,4.2 c3.49-9.58,3.34-18.02-2.92-22.72c-6.09,4.9-8.47,10.95-3.64,22.96c-22.22-18.35-28.43,4.89-7.05,5.62L81.58,79.21L81.58,79.21z M52.87,22.91c3.71,0,6.72,3.01,6.72,6.72s-3.01,6.72-6.72,6.72c-3.71,0-6.72-3.01-6.72-6.72S49.16,22.91,52.87,22.91L52.87,22.91z\"/></g></svg>",
+          "resourceTitle": "Resource Title",
+          "resourceDesc": "<p class=\"rteBlock\">The description or additional informaiton goes here.</p>",
+          "buttonText": "Learn More"
+        },
+        {
+          "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/PLACEHOLDER+IMAGE.png",
+          "resourceIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 117.52 122.88\" style=\"enable-background:new 0 0 117.52 122.88\" xml:space=\"preserve\"><g><path d=\"M81.58,79.21c-8.16,2.61-14.62,8.87-18.76,16.52c2.74-14.44,6.24-31.51,1.21-45.79c7.34,7.34,15.51-2.78,9.82-8.47 l-5.37-5.37h7.59c8.5,0,8.5-12.94,0-12.94h-7.59l5.37-5.37c6.01-6.01-3.14-15.16-9.15-9.15l-5.37,5.37v-7.6 c0-8.59-12.94-8.52-12.94,0v7.59l-5.37-5.37c-6.01-6.01-15.16,3.14-9.15,9.15l5.37,5.37h-7.6c-8.5,0-8.5,12.94,0,12.94l7.6,0 l-5.37,5.37c-6.01,6.01,3.14,15.16,9.15,9.15l5.37-5.37v7.6c0,8.21,12.94,9.24,12.94-0.78c1.61,9.46-2.32,27.71-4.04,44.03 c-4.05-8.08-10.71-14.59-19.36-16.88l-0.03,0c21.38-0.73,15.17-23.97-7.05-5.62c4.83-12.01,2.45-18.06-3.64-22.96 c-6.26,4.7-6.41,13.14-2.92,22.72C12.88,65.12,5.66,65.42,0,69.15c3.96,9.61,10.69,11.14,20.12,9.53C9.95,85.67,6.38,92.46,9.86,99 c8.68-0.85,13.13-6.91,15.06-16.88c2.39,11.26,7.66,16.61,15.99,17.11c1.73-6.48-0.15-12.77-9.44-19.15 c10.96,2.96,19.15,11.72,23.28,22.07c-0.5,7.45-0.27,14.16,1.51,18.97c0.52,1.44,1.99,2.13,3.28,1.56c1.29-0.58,1.92-2.21,1.4-3.64 c-0.68-2.81-0.66-6.25-0.26-10.14c1.43-6.58,4.53-13.16,9.18-18.49c4.16-4.79,9.6-8.55,16.16-10.32 c-9.29,6.37-11.17,12.67-9.44,19.15c8.33-0.49,13.6-5.84,15.99-17.11c1.94,9.97,6.39,16.03,15.06,16.88 c3.48-6.54-0.09-13.33-10.25-20.32c9.42,1.61,16.15,0.08,20.12-9.53c-5.66-3.74-12.88-4.03-22.29,4.2 c3.49-9.58,3.34-18.02-2.92-22.72c-6.09,4.9-8.47,10.95-3.64,22.96c-22.22-18.35-28.43,4.89-7.05,5.62L81.58,79.21L81.58,79.21z M52.87,22.91c3.71,0,6.72,3.01,6.72,6.72s-3.01,6.72-6.72,6.72c-3.71,0-6.72-3.01-6.72-6.72S49.16,22.91,52.87,22.91L52.87,22.91z\"/></g></svg>",
+          "resourceTitle": "Resource Title",
+          "resourceDesc": "<p class=\"rteBlock\">The description or additional informaiton goes here.</p>",
+          "buttonText": "Learn More"
+        }
+      ],
+      "hideShadow": false,
+      "alignImage": "center",
+      "iconAlign": "flex-start",
+      "iconColor": "#000000",
+      "alignButton": "left"
+    }
   },
   {
     "id": "sub-nav-with-sub-folders",
@@ -556,8 +1315,11 @@
     "limitations": "",
     "notes": "",
     "widgetId": "8b0be2d93b0e4954bd9511e4c432429c",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "9",
+    "widgetSettings": {
+      "currentFolder": "Resources",
+      "navAlignment": "vertical"
+    }
   },
   {
     "id": "expandable-link-list",
@@ -570,8 +1332,26 @@
     "limitations": "",
     "notes": "",
     "widgetId": "bc5fc67eb4084007a81005eb41fa16fb",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "11",
+    "widgetSettings": {
+      "navTitle": "Navigation Title",
+      "undefined": "#f0f0f0",
+      "navItems": [
+        {
+          "itemText": "Page Name"
+        },
+        {
+          "itemText": "Page Name"
+        },
+        {
+          "itemText": "Page Name"
+        },
+        {
+          "itemText": "Page Name"
+        }
+      ],
+      "dividerSize": "1"
+    }
   },
   {
     "id": "hoverable-dropdown",
@@ -584,8 +1364,18 @@
     "limitations": "",
     "notes": "",
     "widgetId": "7632bc6139a84c4fa77fbdabd3010ab6",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "64",
+    "widgetSettings": {
+      "Label": "Dropdown Title",
+      "dropDownLink": [
+        {
+          "dropDownText": "<p class=\"rteBlock\">Link Text</p>",
+          "dropDownLink": {
+            "href": "/home"
+          }
+        }
+      ]
+    }
   },
   {
     "id": "infinite-logo-slider",
@@ -598,8 +1388,22 @@
     "limitations": "",
     "notes": "",
     "widgetId": "9b1b2ac5c83b46fb80b2ea8fdaf430df",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "4",
+    "widgetSettings": {
+      "logo": [
+        {
+          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png"
+        },
+        {
+          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png"
+        },
+        {
+          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png"
+        }
+      ],
+      "sliderSpeed": "50",
+      "hoverPause": true
+    }
   },
   {
     "id": "obit-search-dropdown",
@@ -612,8 +1416,12 @@
     "limitations": "",
     "notes": "",
     "widgetId": "3b9e8a0eef554050bd599e5ee93d6e32",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "26",
+    "widgetSettings": {
+      "placeholderText": "Find a loved one",
+      "showBtn": true,
+      "listBtnText": "Visit Obituary Page"
+    }
   },
   {
     "id": "yahrzeit-calculator",
@@ -626,8 +1434,14 @@
     "limitations": "",
     "notes": "",
     "widgetId": "8cbc84bd5d164b9197f5327ec04702b5",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "8",
+    "widgetSettings": {
+      "fhName": "Sonzini Mortuary",
+      "fhDomain": "https://www.sonzinimortuary.com",
+      "buttonText": "Calculate",
+      "alignButton": "center",
+      "buttonHeight": "45"
+    }
   },
   {
     "id": "hebrew-calendar",
@@ -640,8 +1454,27 @@
     "limitations": "",
     "notes": "",
     "widgetId": "0a4b142574b84c7bba3d406d188a52cc",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "4",
+    "widgetSettings": {
+      "showHebrewDates": true,
+      "showHolidays": true,
+      "showTorah": true,
+      "showShabbatTimes": false,
+      "location": "IL",
+      "showOmer": true,
+      "showRoshChodesh": true,
+      "showFasts": true,
+      "monthTitle": "Loading...",
+      "eventsTitle": "Events This Month",
+      "shabbatTimesTitle": "This Week's Shabbat Times",
+      "sundayLabel": "Sun",
+      "mondayLabel": "Mon",
+      "tuesdayLabel": "Tue",
+      "wednesdayLabel": "Wed",
+      "thursdayLabel": "Thu",
+      "fridayLabel": "Fri",
+      "saturdayLabel": "Sat"
+    }
   },
   {
     "id": "images-to-mock-video",
@@ -654,8 +1487,24 @@
     "limitations": "",
     "notes": "",
     "widgetId": "2ae3eeaf98234a24b000bb6914bd3f30",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "11",
+    "widgetSettings": {
+      "imageList": [
+        {
+          "imageUrl": "https://placehold.co/1920x1080"
+        },
+        {
+          "imageUrl": "https://placehold.co/1920x1080"
+        },
+        {
+          "imageUrl": "https://placehold.co/1920x1080"
+        }
+      ],
+      "autoplaySpeed": "8000",
+      "autoplay": true,
+      "showDots": false,
+      "showArrows": false
+    }
   },
   {
     "id": "location-slider",
@@ -668,8 +1517,41 @@
     "limitations": "",
     "notes": "",
     "widgetId": "fe0bc24d49b5430a89ada8ffeb1d2473",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "31",
+    "widgetSettings": {
+      "visibleSlides": "3",
+      "tabletVisibleSlides": "2",
+      "locations": [
+        {
+          "slideImage": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/fh-placeholder.jpg",
+          "slideIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg height=\"100px\" width=\"100px\" version=\"1.1\" id=\"_x32_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \r\n\t viewBox=\"0 0 512 512\"  xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{fill:#000000;}\r\n</style>\r\n<g>\r\n\t<path class=\"st0\" d=\"M295.599,242.266c1.51,4.4,2.288,9.058,2.279,13.742c0,1.294-0.059,2.596-0.168,3.907\r\n\t\tc-0.994,41.236-17.607,80.065-46.778,109.228c-30.206,30.215-70.397,46.862-113.177,46.879c-4.408,0-8.842-0.184-13.233-0.534\r\n\t\tc6.604,21.089,18.36,40.441,34.139,56.229C184.626,497.69,219.19,512,255.992,512c36.793-0.008,71.532-14.485,97.822-40.776\r\n\t\tc18.894-18.893,31.734-42.712,37.094-68.903c0.25-1.202,0.443-2.187,0.634-3.147c1.47-8.249,2.221-16.648,2.221-24.946\r\n\t\tc0-36.802-14.418-71.466-40.576-97.622C337.159,260.575,317.356,248.778,295.599,242.266z\"/>\r\n\t<path class=\"st0\" d=\"M216.402,269.717c-1.512-4.383-2.296-9.033-2.296-13.726c0.008-1.293,0.075-2.554,0.159-3.807l0.025-0.409\r\n\t\tc1.044-41.076,17.658-79.807,46.779-108.927c30.206-30.198,70.406-46.845,113.177-46.879c4.433,0.008,8.866,0.183,13.25,0.551\r\n\t\tc-6.612-21.089-18.334-40.425-34.08-56.18C327.399,14.327,292.801,0,256.008,0s-71.382,14.334-97.414,40.366\r\n\t\tc-19.111,19.11-32.068,43.063-37.486,69.295c-0.192,1.01-0.392,2.037-0.584,3.106l-0.518,2.955\r\n\t\tc-1.169,7.281-1.754,14.694-1.761,22.041c0,36.802,14.318,71.391,40.35,97.406C174.741,251.324,194.611,263.18,216.402,269.717z\"/>\r\n\t<path class=\"st0\" d=\"M471.684,158.611c-19.094-19.094-43.089-32.068-69.379-37.511c-0.952-0.209-1.92-0.401-2.896-0.551\r\n\t\tc-8.324-1.511-16.765-2.279-25.188-2.305c-36.793-0.008-71.391,14.327-97.415,40.342c-16.138,16.138-27.993,36.017-34.522,57.823\r\n\t\tc4.367-1.502,9.001-2.295,13.684-2.304c1.319,0,2.572,0.076,3.824,0.151c41.402,1.018,80.09,17.566,109.136,46.611\r\n\t\tc30.365,30.365,47.087,70.623,47.087,113.378c0,4.424-0.2,8.858-0.542,13.232c21.08-6.604,40.425-18.325,56.162-34.064\r\n\t\tC497.665,327.374,512,292.784,512,255.991S497.69,184.6,471.684,158.611z\"/>\r\n\t<path class=\"st0\" d=\"M235.194,353.414c16.122-16.13,27.968-36,34.522-57.832c-4.391,1.519-9.058,2.304-13.75,2.296\r\n\t\tc-1.136,0-2.287-0.067-3.398-0.167c-41.277-0.776-80.324-17.407-109.712-46.803c-30.232-30.231-46.879-70.414-46.871-113.144\r\n\t\tc0-4.391,0.175-8.842,0.543-13.258c-21.056,6.596-40.4,18.309-56.154,34.08C14.343,184.618,0,219.215,0,256.008\r\n\t\tc0,36.802,14.268,71.316,40.141,97.205c19.177,19.169,43.238,32.21,69.562,37.678l3.298,0.668\r\n\t\tc7.998,1.453,16.347,2.196,24.754,2.196C174.574,393.756,209.18,379.42,235.194,353.414z\"/>\r\n</g>\r\n</svg>",
+          "title": "Location Title",
+          "largeTitle": "<p class=\"rteBlock\">Large Title</p><p class=\"rteBlock\">Text Box</p>",
+          "description": "<p class=\"rteBlock\">Description or Contact Info (linkable)</p>",
+          "buttonText": "Get Directions"
+        },
+        {
+          "slideImage": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/fh-placeholder.jpg",
+          "slideIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg height=\"100px\" width=\"100px\" version=\"1.1\" id=\"_x32_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \r\n\t viewBox=\"0 0 512 512\"  xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{fill:#000000;}\r\n</style>\r\n<g>\r\n\t<path class=\"st0\" d=\"M295.599,242.266c1.51,4.4,2.288,9.058,2.279,13.742c0,1.294-0.059,2.596-0.168,3.907\r\n\t\tc-0.994,41.236-17.607,80.065-46.778,109.228c-30.206,30.215-70.397,46.862-113.177,46.879c-4.408,0-8.842-0.184-13.233-0.534\r\n\t\tc6.604,21.089,18.36,40.441,34.139,56.229C184.626,497.69,219.19,512,255.992,512c36.793-0.008,71.532-14.485,97.822-40.776\r\n\t\tc18.894-18.893,31.734-42.712,37.094-68.903c0.25-1.202,0.443-2.187,0.634-3.147c1.47-8.249,2.221-16.648,2.221-24.946\r\n\t\tc0-36.802-14.418-71.466-40.576-97.622C337.159,260.575,317.356,248.778,295.599,242.266z\"/>\r\n\t<path class=\"st0\" d=\"M216.402,269.717c-1.512-4.383-2.296-9.033-2.296-13.726c0.008-1.293,0.075-2.554,0.159-3.807l0.025-0.409\r\n\t\tc1.044-41.076,17.658-79.807,46.779-108.927c30.206-30.198,70.406-46.845,113.177-46.879c4.433,0.008,8.866,0.183,13.25,0.551\r\n\t\tc-6.612-21.089-18.334-40.425-34.08-56.18C327.399,14.327,292.801,0,256.008,0s-71.382,14.334-97.414,40.366\r\n\t\tc-19.111,19.11-32.068,43.063-37.486,69.295c-0.192,1.01-0.392,2.037-0.584,3.106l-0.518,2.955\r\n\t\tc-1.169,7.281-1.754,14.694-1.761,22.041c0,36.802,14.318,71.391,40.35,97.406C174.741,251.324,194.611,263.18,216.402,269.717z\"/>\r\n\t<path class=\"st0\" d=\"M471.684,158.611c-19.094-19.094-43.089-32.068-69.379-37.511c-0.952-0.209-1.92-0.401-2.896-0.551\r\n\t\tc-8.324-1.511-16.765-2.279-25.188-2.305c-36.793-0.008-71.391,14.327-97.415,40.342c-16.138,16.138-27.993,36.017-34.522,57.823\r\n\t\tc4.367-1.502,9.001-2.295,13.684-2.304c1.319,0,2.572,0.076,3.824,0.151c41.402,1.018,80.09,17.566,109.136,46.611\r\n\t\tc30.365,30.365,47.087,70.623,47.087,113.378c0,4.424-0.2,8.858-0.542,13.232c21.08-6.604,40.425-18.325,56.162-34.064\r\n\t\tC497.665,327.374,512,292.784,512,255.991S497.69,184.6,471.684,158.611z\"/>\r\n\t<path class=\"st0\" d=\"M235.194,353.414c16.122-16.13,27.968-36,34.522-57.832c-4.391,1.519-9.058,2.304-13.75,2.296\r\n\t\tc-1.136,0-2.287-0.067-3.398-0.167c-41.277-0.776-80.324-17.407-109.712-46.803c-30.232-30.231-46.879-70.414-46.871-113.144\r\n\t\tc0-4.391,0.175-8.842,0.543-13.258c-21.056,6.596-40.4,18.309-56.154,34.08C14.343,184.618,0,219.215,0,256.008\r\n\t\tc0,36.802,14.268,71.316,40.141,97.205c19.177,19.169,43.238,32.21,69.562,37.678l3.298,0.668\r\n\t\tc7.998,1.453,16.347,2.196,24.754,2.196C174.574,393.756,209.18,379.42,235.194,353.414z\"/>\r\n</g>\r\n</svg>",
+          "title": "Location Title",
+          "largeTitle": "<p class=\"rteBlock\">Large Title</p><p class=\"rteBlock\">Text Box</p>",
+          "description": "<p class=\"rteBlock\">Description or Contact Info (linkable)</p>",
+          "buttonText": "Get Directions"
+        },
+        {
+          "slideImage": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/fh-placeholder.jpg",
+          "slideIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\r\n<svg height=\"100px\" width=\"100px\" version=\"1.1\" id=\"_x32_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \r\n\t viewBox=\"0 0 512 512\"  xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{fill:#000000;}\r\n</style>\r\n<g>\r\n\t<path class=\"st0\" d=\"M295.599,242.266c1.51,4.4,2.288,9.058,2.279,13.742c0,1.294-0.059,2.596-0.168,3.907\r\n\t\tc-0.994,41.236-17.607,80.065-46.778,109.228c-30.206,30.215-70.397,46.862-113.177,46.879c-4.408,0-8.842-0.184-13.233-0.534\r\n\t\tc6.604,21.089,18.36,40.441,34.139,56.229C184.626,497.69,219.19,512,255.992,512c36.793-0.008,71.532-14.485,97.822-40.776\r\n\t\tc18.894-18.893,31.734-42.712,37.094-68.903c0.25-1.202,0.443-2.187,0.634-3.147c1.47-8.249,2.221-16.648,2.221-24.946\r\n\t\tc0-36.802-14.418-71.466-40.576-97.622C337.159,260.575,317.356,248.778,295.599,242.266z\"/>\r\n\t<path class=\"st0\" d=\"M216.402,269.717c-1.512-4.383-2.296-9.033-2.296-13.726c0.008-1.293,0.075-2.554,0.159-3.807l0.025-0.409\r\n\t\tc1.044-41.076,17.658-79.807,46.779-108.927c30.206-30.198,70.406-46.845,113.177-46.879c4.433,0.008,8.866,0.183,13.25,0.551\r\n\t\tc-6.612-21.089-18.334-40.425-34.08-56.18C327.399,14.327,292.801,0,256.008,0s-71.382,14.334-97.414,40.366\r\n\t\tc-19.111,19.11-32.068,43.063-37.486,69.295c-0.192,1.01-0.392,2.037-0.584,3.106l-0.518,2.955\r\n\t\tc-1.169,7.281-1.754,14.694-1.761,22.041c0,36.802,14.318,71.391,40.35,97.406C174.741,251.324,194.611,263.18,216.402,269.717z\"/>\r\n\t<path class=\"st0\" d=\"M471.684,158.611c-19.094-19.094-43.089-32.068-69.379-37.511c-0.952-0.209-1.92-0.401-2.896-0.551\r\n\t\tc-8.324-1.511-16.765-2.279-25.188-2.305c-36.793-0.008-71.391,14.327-97.415,40.342c-16.138,16.138-27.993,36.017-34.522,57.823\r\n\t\tc4.367-1.502,9.001-2.295,13.684-2.304c1.319,0,2.572,0.076,3.824,0.151c41.402,1.018,80.09,17.566,109.136,46.611\r\n\t\tc30.365,30.365,47.087,70.623,47.087,113.378c0,4.424-0.2,8.858-0.542,13.232c21.08-6.604,40.425-18.325,56.162-34.064\r\n\t\tC497.665,327.374,512,292.784,512,255.991S497.69,184.6,471.684,158.611z\"/>\r\n\t<path class=\"st0\" d=\"M235.194,353.414c16.122-16.13,27.968-36,34.522-57.832c-4.391,1.519-9.058,2.304-13.75,2.296\r\n\t\tc-1.136,0-2.287-0.067-3.398-0.167c-41.277-0.776-80.324-17.407-109.712-46.803c-30.232-30.231-46.879-70.414-46.871-113.144\r\n\t\tc0-4.391,0.175-8.842,0.543-13.258c-21.056,6.596-40.4,18.309-56.154,34.08C14.343,184.618,0,219.215,0,256.008\r\n\t\tc0,36.802,14.268,71.316,40.141,97.205c19.177,19.169,43.238,32.21,69.562,37.678l3.298,0.668\r\n\t\tc7.998,1.453,16.347,2.196,24.754,2.196C174.574,393.756,209.18,379.42,235.194,353.414z\"/>\r\n</g>\r\n</svg>",
+          "title": "Location Title",
+          "largeTitle": "<p class=\"rteBlock\">Large Title</p><p class=\"rteBlock\">Text Box</p>",
+          "description": "<p class=\"rteBlock\">Description or Contact Info (linkable)</p>",
+          "buttonText": "Get Directions"
+        }
+      ],
+      "iconAlign": "center",
+      "arrowSize": "30",
+      "showArrows": true,
+      "showDots": true
+    }
   },
   {
     "id": "multi-step-preplan-form",
@@ -682,8 +1564,52 @@
     "limitations": "",
     "notes": "",
     "widgetId": "abfc3bfd92474eb8a3c9532923686a91",
-    "widgetVersion": "",
-    "widgetSettings": {}
+    "widgetVersion": "61",
+    "widgetSettings": {
+      "formHeader": "Multi-Step-Planning-Form",
+      "form-title-text": "Online Preplanning Form",
+      "form-description": "<p class=\"rteBlock\">Planning in advance is about making your wishes known and we&#x27;ve created this simple online form to assist you. You may fill out as much or as little as you wish, but we do need your basic contact information so we can follow up with you to get any additional information we may need to complete your arrangements.If you have any questions, or would like assistance with this form, please call (555) 555-5555.</p>",
+      "step-1-title": "Step 1 - Personal Information",
+      "s-1-q-1": true,
+      "s-1-q-2": true,
+      "s-1-q-3": true,
+      "s-1-q-4": true,
+      "s-1-m": true,
+      "s-1-q-5": true,
+      "s-1-q-6": true,
+      "step-2-title": "Step 2 - Family Information",
+      "s-2-q-1": true,
+      "s-2-q-2": true,
+      "s-2-q-3": true,
+      "s-2-q-4": true,
+      "s-2-q-5": true,
+      "s-2-q-6": true,
+      "s-2-q-7": true,
+      "s-2-q-8": true,
+      "s-2-q-9": true,
+      "s-2-q-10": true,
+      "s-2-q-11": true,
+      "step-3-title": "Step 3 - Work & Education History",
+      "s-3-q-1": true,
+      "s-3-q-2": true,
+      "s-3-q-3": true,
+      "s-3-q-4": true,
+      "s-3-q-5": true,
+      "s-3-q-6": true,
+      "s-3-q-7": true,
+      "step-4-title": "Step 4 - Service Preferences",
+      "s-4-q-1": true,
+      "s-4-q-2": true,
+      "s-4-q-3": true,
+      "s-4-q-4": true,
+      "s-4-q-5": true,
+      "s-4-q-6": true,
+      "s-4-q-7": true,
+      "nextBtnText": "Next",
+      "prevBtnText": "Back",
+      "submBtnText": "Submit",
+      "newEnv": "prod"
+    }
   },
   {
     "id": "park-lawn-terms-of-service",
