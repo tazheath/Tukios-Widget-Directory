@@ -636,7 +636,6 @@
         }
       ],
       "bio-button": "Read Bio",
-      "showMore": false,
       "staffLimit": "1",
       "showMoreBtnText": "Show More Staff",
       "button-align": "left",
@@ -904,7 +903,7 @@
     "widgetId": "defb7e5296e34831a5070fcf82efd890",
     "widgetVersion": "34",
     "widgetSettings": {
-      "fhName": "Taz Test Site",
+      "fhName": "{{BUSINESS_NAME}}",
       "smsTitle": "SMS Text Messaging",
       "hideTextShadow": true,
       "smsDesc": "<p class=\"rteBlock\">Our website may offer the option to receive service updates, appointment information, or other communications by SMS text message. These messages are delivered through a third-party service provider. By choosing to receive text messages, you acknowledge that your mobile number and related data will be shared with that provider solely for the purpose of sending SMS communications.</p><br><p class=\"rteBlock\"><strong>Your Consent</strong></p><p class=\"rteBlock\">Text messages are sent only to individuals who have opted in. You may opt out at any time by replying STOP to any message you receive. Once you opt out, you will stop receiving SMS communications unless you choose to opt in again.</p><br><p class=\"rteBlock\"><strong>Message &amp; Data Rates</strong></p><p class=\"rteBlock\">Message and data rates may apply based on your mobile carrier and plan. The funeral home is not responsible for any fees charged by your carrier.</p><br><p class=\"rteBlock\"><strong>Information Handling</strong></p><p class=\"rteBlock\">The third-party provider may collect your mobile number, message preferences, and any information you submit as part of your SMS participation. This information is used only to deliver the messages you request and to support the SMS program. We do not sell or share your mobile number or SMS participation details with other third parties for marketing purposes.</p><br><p class=\"rteBlock\"><strong>Third-Party Practices</strong></p><p class=\"rteBlock\">Because the SMS program is operated by an external provider, their privacy practices and terms may also apply. We encourage you to review their policies if you have questions about how your information is managed.</p>",
@@ -924,7 +923,7 @@
     "widgetId": "d63052a23a6c43b6a1e5dec4908364ca",
     "widgetVersion": "22",
     "widgetSettings": {
-      "fhName": "Taz Test Site",
+      "fhName": "{{BUSINESS_NAME}}",
       "smsTitle": "SMS Text Messaging Terms",
       "hideTextShadow": true,
       "smsDesc": "<p class=\"rteBlock\">By opting in to receive SMS text messages from our website, you agree to the following terms. SMS communications offered through this site are delivered by a third-party service provider. Your participation in the SMS program is voluntary.</p><br><p class=\"rteBlock\"><strong>Use of the Service</strong></p><p class=\"rteBlock\">By providing your mobile number and opting in, you authorize our third-party provider to send you text messages related to services, scheduling, updates, or other information you have requested. Message frequency may vary. </p><br><p class=\"rteBlock\"><strong>User Responsibilities</strong></p><p class=\"rteBlock\">You agree that the mobile number you provide is your own and that you are authorized to receive messages at that number. You are responsible for ensuring your contact information remains accurate.</p><br><p class=\"rteBlock\"><strong>Opt-Out</strong></p><p class=\"rteBlock\">You may opt out of SMS messaging at any time by replying STOP to any message. After opting out, you will no longer receive text messages unless you opt in again.</p><br><p class=\"rteBlock\"><strong>Third-Party Operation</strong></p><p class=\"rteBlock\">Because SMS services are facilitated by an external provider, their terms and policies may also apply in addition to these Terms of Use. We are not responsible for delays, failures, or errors in message delivery caused by the third-party provider or your mobile carrier.</p><br><p class=\"rteBlock\"><strong>Message &amp; Data Rates</strong></p><p class=\"rteBlock\">Standard message and data rates may apply. You are solely responsible for any fees charged by your mobile carrier.</p><br><p class=\"rteBlock\"><strong>No Warranties</strong></p><p class=\"rteBlock\">SMS messaging is provided on an “as available” basis. We do not guarantee message delivery times or uninterrupted access to the SMS service.</p>"
@@ -972,7 +971,7 @@
     "widgetId": "30c5b9e57eb14998838c5ff93aff493a",
     "widgetVersion": "23",
     "widgetSettings": {
-      "funeralHomeName": "Funeral Home Name",
+      "funeralHomeName": "{{BUSINESS_NAME}}",
       "copyrightext": ". All Rights Reserved.",
       "ssoSlug": "newcomer",
       "adminlogin": true,
@@ -1436,8 +1435,8 @@
     "widgetId": "8cbc84bd5d164b9197f5327ec04702b5",
     "widgetVersion": "8",
     "widgetSettings": {
-      "fhName": "Sonzini Mortuary",
-      "fhDomain": "https://www.sonzinimortuary.com",
+      "fhName": "{{BUSINESS_NAME}}",
+      "fhDomain": "{{SITE_URL}}",
       "buttonText": "Calculate",
       "alignButton": "center",
       "buttonHeight": "45"
