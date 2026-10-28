@@ -75,7 +75,8 @@
       "arrowDesignPrev": "2B9C",
       "fontawesomeIconNext": "<i class=\"fas fa-arrow-left\"></i>",
       "fontawesomeIconPrev": "<i class=\"fas fa-arrow-right\"></i>",
-      "filterNavGap": "30"
+      "filterNavGap": "30",
+      "hoveropt": ""
     }
   },
   {
@@ -140,7 +141,9 @@
       "topScrollSpeed": "slow",
       "bottomScrollDirection": "right",
       "bottomScrollSpeed": "slow",
-      "loadingTextColor": "#4a4a4a"
+      "loadingTextColor": "#4a4a4a",
+      "showInfoBelow": false,
+      "showBranch": false
     }
   },
   {
@@ -200,16 +203,20 @@
       "allLocationsText": "All Locations",
       "locations": [
         {
-          "locationName": "Location Name"
+          "locationName": "Location Name",
+          "listLocationID": ""
         },
         {
-          "locationName": "Location Name"
+          "locationName": "Location Name",
+          "listLocationID": ""
         }
       ],
       "newLinkText": false,
       "obitLinkText": "View Obituary →",
       "carouselCardCount": "6",
-      "noBoxShadow": false
+      "noBoxShadow": false,
+      "showLocationDropdown": false,
+      "carouselServiceCards": false
     }
   },
   {
@@ -253,7 +260,9 @@
       "viewLivestreamButtonText": "View Livestream",
       "newEnv": "prod",
       "customEnvironment": "http://localhost",
-      "errorTextColor": "#000000"
+      "errorTextColor": "#000000",
+      "showDob": false,
+      "showDod": false
     }
   },
   {
@@ -281,7 +290,14 @@
       "themeColor": "#0073c0",
       "useCards": true,
       "obituaryItemHeight": "180",
-      "buttonStyle": "pill"
+      "buttonStyle": "pill",
+      "hideDates": false,
+      "veteran": false,
+      "showBranchEmblems": false,
+      "showAdvancedSearch": false,
+      "showBranchFilter": false,
+      "showLocationFilter": false,
+      "useMinimalCards": false
     }
   },
   {
@@ -302,10 +318,12 @@
       "allLocationsText": "All Locations",
       "locations": [
         {
-          "locationName": "Location Name"
+          "locationName": "Location Name",
+          "listLocationID": ""
         },
         {
-          "locationName": "Location Name"
+          "locationName": "Location Name",
+          "listLocationID": ""
         }
       ],
       "numberOfObits": "6",
@@ -314,7 +332,15 @@
       "newEnv": "production",
       "flowersButtonText": "Flowers",
       "obituaryButtonText": "Obituary",
-      "obitLineHeight": "1.3"
+      "obitLineHeight": "1.3",
+      "hideBranch": false,
+      "obitToTribute": false,
+      "circleImages": false,
+      "hideDateofBirth": false,
+      "capBtnText": false,
+      "monthDayDates": false,
+      "veteranOnly": false,
+      "hideDates": false
     }
   },
   {
@@ -336,7 +362,8 @@
       "placeholder": "Search Obituaries...",
       "searchBtnText": "Search",
       "searchIcon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"magnifying-glass\" class=\"svg-inline--fa fa-magnifying-glass\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z\"></path></svg>",
-      "showSearchIcon": true
+      "showSearchIcon": true,
+      "searchIconInside": false
     }
   },
   {
@@ -357,7 +384,11 @@
       "form_type": "obits",
       "allLocationsText": "All Locations",
       "gh-t-tag": "h6",
-      "newEnv": "prod"
+      "newEnv": "prod",
+      "headerUppercase": false,
+      "firstLast": false,
+      "multiLocation": false,
+      "sortLocationById": false
     }
   },
   {
@@ -408,7 +439,10 @@
       "hideDateofBirth": true,
       "newEnv": "production",
       "flowersButtonText": "Send Flowers",
-      "hideDivider": true
+      "hideDivider": true,
+      "hideBranch": false,
+      "capBtnText": false,
+      "hideNoFlowerObits": false
     }
   },
   {
@@ -487,7 +521,9 @@
       "itemsToDisplay": "all",
       "newEnv": "prod",
       "loadingTextColor": "#000000",
-      "alignStars": "flex-start"
+      "alignStars": "flex-start",
+      "twoLine": false,
+      "showDate": false
     }
   },
   {
@@ -514,7 +550,9 @@
       "dots": true,
       "newEnv": "prod",
       "loadingTextColor": "#000000",
-      "arrowDesigns": "default"
+      "arrowDesigns": "default",
+      "showRating": false,
+      "adaptive": false
     }
   },
   {
@@ -530,7 +568,9 @@
     "widgetId": "41f842c730f640aaabb0616dd7994ac6",
     "widgetVersion": "14",
     "widgetSettings": {
-      "layout": "carousel"
+      "layout": "carousel",
+      "siteAlias": "",
+      "capButton": false
     }
   },
   {
@@ -559,7 +599,10 @@
           "getDirectionsButtonText": "Get Directions",
           "openNewTab": true,
           "phoneNumber": "555-555-5555",
-          "phoneNumber2": "555-555-5555"
+          "phoneNumber2": "555-555-5555",
+          "directionsURL": "",
+          "overwriteGetDirections": false,
+          "email": ""
         }
       ],
       "DesktopZoomOffset": "0",
@@ -614,7 +657,10 @@
           "staff-position": "Staff Position",
           "show-bio-preview": true,
           "call-button-text": "Call",
-          "email-button-text": "Email"
+          "email-button-text": "Email",
+          "staff-bio": "",
+          "show-call-button": false,
+          "show-email-button": false
         },
         {
           "hide-image": false,
@@ -623,7 +669,10 @@
           "staff-position": "Staff Position",
           "show-bio-preview": true,
           "call-button-text": "Call",
-          "email-button-text": "Email"
+          "email-button-text": "Email",
+          "staff-bio": "",
+          "show-call-button": false,
+          "show-email-button": false
         },
         {
           "hide-image": false,
@@ -632,14 +681,20 @@
           "staff-position": "Staff Position",
           "show-bio-preview": true,
           "call-button-text": "Call",
-          "email-button-text": "Email"
+          "email-button-text": "Email",
+          "staff-bio": "",
+          "show-call-button": false,
+          "show-email-button": false
         }
       ],
       "bio-button": "Read Bio",
       "staffLimit": "1",
       "showMoreBtnText": "Show More Staff",
       "button-align": "left",
-      "limitBtnAlign": "flex-start"
+      "limitBtnAlign": "flex-start",
+      "showMore": false,
+      "hideBoxShadow": false,
+      "fixedHeightModal": false
     }
   },
   {
@@ -827,7 +882,8 @@
       "numberOfEvents": "6",
       "newEnv": "prod",
       "customEnvironment": "http://localhost",
-      "errorTextColor": "#000000"
+      "errorTextColor": "#000000",
+      "hideHeader": false
     }
   },
   {
@@ -863,7 +919,8 @@
       "showAllianceOfHope": true,
       "showGriefShare": true,
       "showGrieving": true,
-      "showDougyCenter": false
+      "showDougyCenter": false,
+      "btnTextUppercase": false
     }
   },
   {
@@ -887,7 +944,10 @@
           "resourceBtnText": "Learn More"
         }
       ],
-      "hideChainSVG": true
+      "hideChainSVG": true,
+      "contentLineHeight": "",
+      "hideGoodTrust": false,
+      "btnTextUppercase": false
     }
   },
   {
@@ -976,7 +1036,8 @@
       "ssoSlug": "newcomer",
       "adminlogin": true,
       "admintext": "Admin Login",
-      "states": "none"
+      "states": "none",
+      "showStateDisclosure": false
     }
   },
   {
@@ -1008,7 +1069,10 @@
           "c2text": "$1,695",
           "c3type": "check",
           "c4type": "check",
-          "c5type": "check"
+          "c5type": "check",
+          "c3text": "",
+          "c4text": "",
+          "c5text": ""
         },
         {
           "label": "Service Name",
@@ -1018,7 +1082,10 @@
           "c2text": "$1,695",
           "c3type": "check",
           "c4type": "check",
-          "c5type": "check"
+          "c5type": "check",
+          "c3text": "",
+          "c4text": "",
+          "c5text": ""
         },
         {
           "label": "Service Name",
@@ -1028,7 +1095,10 @@
           "c2text": "$1,695",
           "c3type": "check",
           "c4type": "check",
-          "c5type": "check"
+          "c5type": "check",
+          "c3text": "",
+          "c4text": "",
+          "c5text": ""
         },
         {
           "label": "Service Name",
@@ -1038,7 +1108,10 @@
           "c2text": "$1,695",
           "c3type": "check",
           "c4type": "check",
-          "c5type": "check"
+          "c5type": "check",
+          "c3text": "",
+          "c4text": "",
+          "c5text": ""
         },
         {
           "label": "Service Name",
@@ -1048,7 +1121,10 @@
           "c2text": "$1,695",
           "c3type": "check",
           "c4type": "check",
-          "c5type": "check"
+          "c5type": "check",
+          "c3text": "",
+          "c4text": "",
+          "c5text": ""
         },
         {
           "label": "Service Name",
@@ -1058,7 +1134,10 @@
           "c2text": "$1,695",
           "c3type": "check",
           "c4type": "check",
-          "c5type": "check"
+          "c5type": "check",
+          "c3text": "",
+          "c4text": "",
+          "c5text": ""
         }
       ]
     }
@@ -1083,7 +1162,8 @@
           "overwriteColor": true,
           "removeWhiteSpace": false,
           "button": true,
-          "ctaText": "Contact Us"
+          "ctaText": "Contact Us",
+          "ctaTextLink": ""
         },
         {
           "hasIcon": true,
@@ -1091,7 +1171,8 @@
           "overwriteColor": true,
           "removeWhiteSpace": false,
           "button": true,
-          "ctaText": "Contact Us"
+          "ctaText": "Contact Us",
+          "ctaTextLink": ""
         },
         {
           "hasIcon": true,
@@ -1099,7 +1180,8 @@
           "overwriteColor": true,
           "removeWhiteSpace": false,
           "button": true,
-          "ctaText": "Contact Us"
+          "ctaText": "Contact Us",
+          "ctaTextLink": ""
         }
       ],
       "dynamicCtaIcon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 256 1792 1408\"> <path d=\"M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h1 1q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zM1792 416q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-1-1q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z\"></path> \r\n</svg>",
@@ -1134,7 +1216,8 @@
         }
       ],
       "justify-content": "flex-end",
-      "flex-direction": "row"
+      "flex-direction": "row",
+      "dynamicLink": false
     }
   },
   {
@@ -1157,7 +1240,8 @@
           "overwriteColor": true,
           "removeWhiteSpace": true,
           "button": true,
-          "ctaText": "Contact Us"
+          "ctaText": "Contact Us",
+          "ctaTextLink": ""
         },
         {
           "hasIcon": true,
@@ -1165,7 +1249,8 @@
           "overwriteColor": true,
           "removeWhiteSpace": true,
           "button": true,
-          "ctaText": "Contact Us"
+          "ctaText": "Contact Us",
+          "ctaTextLink": ""
         },
         {
           "hasIcon": true,
@@ -1173,7 +1258,8 @@
           "overwriteColor": true,
           "removeWhiteSpace": true,
           "button": true,
-          "ctaText": "Contact Us"
+          "ctaText": "Contact Us",
+          "ctaTextLink": ""
         }
       ],
       "dynamicLink": false,
@@ -1211,7 +1297,8 @@
         }
       ],
       "justify-content": "flex-end",
-      "flex-direction": "row"
+      "flex-direction": "row",
+      "showDropdown": false
     }
   },
   {
@@ -1239,7 +1326,9 @@
       "addressStyle2": "oneLine",
       "multipleLink": "555-555-5555/n555-555-5555",
       "multiLinkType": "phone",
-      "justifyContent": "flex-start"
+      "justifyContent": "flex-start",
+      "hasIcon": false,
+      "linkTwo": false
     }
   },
   {
@@ -1279,21 +1368,36 @@
           "resourceIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 117.52 122.88\" style=\"enable-background:new 0 0 117.52 122.88\" xml:space=\"preserve\"><g><path d=\"M81.58,79.21c-8.16,2.61-14.62,8.87-18.76,16.52c2.74-14.44,6.24-31.51,1.21-45.79c7.34,7.34,15.51-2.78,9.82-8.47 l-5.37-5.37h7.59c8.5,0,8.5-12.94,0-12.94h-7.59l5.37-5.37c6.01-6.01-3.14-15.16-9.15-9.15l-5.37,5.37v-7.6 c0-8.59-12.94-8.52-12.94,0v7.59l-5.37-5.37c-6.01-6.01-15.16,3.14-9.15,9.15l5.37,5.37h-7.6c-8.5,0-8.5,12.94,0,12.94l7.6,0 l-5.37,5.37c-6.01,6.01,3.14,15.16,9.15,9.15l5.37-5.37v7.6c0,8.21,12.94,9.24,12.94-0.78c1.61,9.46-2.32,27.71-4.04,44.03 c-4.05-8.08-10.71-14.59-19.36-16.88l-0.03,0c21.38-0.73,15.17-23.97-7.05-5.62c4.83-12.01,2.45-18.06-3.64-22.96 c-6.26,4.7-6.41,13.14-2.92,22.72C12.88,65.12,5.66,65.42,0,69.15c3.96,9.61,10.69,11.14,20.12,9.53C9.95,85.67,6.38,92.46,9.86,99 c8.68-0.85,13.13-6.91,15.06-16.88c2.39,11.26,7.66,16.61,15.99,17.11c1.73-6.48-0.15-12.77-9.44-19.15 c10.96,2.96,19.15,11.72,23.28,22.07c-0.5,7.45-0.27,14.16,1.51,18.97c0.52,1.44,1.99,2.13,3.28,1.56c1.29-0.58,1.92-2.21,1.4-3.64 c-0.68-2.81-0.66-6.25-0.26-10.14c1.43-6.58,4.53-13.16,9.18-18.49c4.16-4.79,9.6-8.55,16.16-10.32 c-9.29,6.37-11.17,12.67-9.44,19.15c8.33-0.49,13.6-5.84,15.99-17.11c1.94,9.97,6.39,16.03,15.06,16.88 c3.48-6.54-0.09-13.33-10.25-20.32c9.42,1.61,16.15,0.08,20.12-9.53c-5.66-3.74-12.88-4.03-22.29,4.2 c3.49-9.58,3.34-18.02-2.92-22.72c-6.09,4.9-8.47,10.95-3.64,22.96c-22.22-18.35-28.43,4.89-7.05,5.62L81.58,79.21L81.58,79.21z M52.87,22.91c3.71,0,6.72,3.01,6.72,6.72s-3.01,6.72-6.72,6.72c-3.71,0-6.72-3.01-6.72-6.72S49.16,22.91,52.87,22.91L52.87,22.91z\"/></g></svg>",
           "resourceTitle": "Resource Title",
           "resourceDesc": "<p class=\"rteBlock\">The description or additional informaiton goes here.</p>",
-          "buttonText": "Learn More"
+          "buttonText": "Learn More",
+          "showButton": false,
+          "buttonLink": "",
+          "showImage": false,
+          "showIcon": false,
+          "hideDesc": false
         },
         {
           "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/PLACEHOLDER+IMAGE.png",
           "resourceIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 117.52 122.88\" style=\"enable-background:new 0 0 117.52 122.88\" xml:space=\"preserve\"><g><path d=\"M81.58,79.21c-8.16,2.61-14.62,8.87-18.76,16.52c2.74-14.44,6.24-31.51,1.21-45.79c7.34,7.34,15.51-2.78,9.82-8.47 l-5.37-5.37h7.59c8.5,0,8.5-12.94,0-12.94h-7.59l5.37-5.37c6.01-6.01-3.14-15.16-9.15-9.15l-5.37,5.37v-7.6 c0-8.59-12.94-8.52-12.94,0v7.59l-5.37-5.37c-6.01-6.01-15.16,3.14-9.15,9.15l5.37,5.37h-7.6c-8.5,0-8.5,12.94,0,12.94l7.6,0 l-5.37,5.37c-6.01,6.01,3.14,15.16,9.15,9.15l5.37-5.37v7.6c0,8.21,12.94,9.24,12.94-0.78c1.61,9.46-2.32,27.71-4.04,44.03 c-4.05-8.08-10.71-14.59-19.36-16.88l-0.03,0c21.38-0.73,15.17-23.97-7.05-5.62c4.83-12.01,2.45-18.06-3.64-22.96 c-6.26,4.7-6.41,13.14-2.92,22.72C12.88,65.12,5.66,65.42,0,69.15c3.96,9.61,10.69,11.14,20.12,9.53C9.95,85.67,6.38,92.46,9.86,99 c8.68-0.85,13.13-6.91,15.06-16.88c2.39,11.26,7.66,16.61,15.99,17.11c1.73-6.48-0.15-12.77-9.44-19.15 c10.96,2.96,19.15,11.72,23.28,22.07c-0.5,7.45-0.27,14.16,1.51,18.97c0.52,1.44,1.99,2.13,3.28,1.56c1.29-0.58,1.92-2.21,1.4-3.64 c-0.68-2.81-0.66-6.25-0.26-10.14c1.43-6.58,4.53-13.16,9.18-18.49c4.16-4.79,9.6-8.55,16.16-10.32 c-9.29,6.37-11.17,12.67-9.44,19.15c8.33-0.49,13.6-5.84,15.99-17.11c1.94,9.97,6.39,16.03,15.06,16.88 c3.48-6.54-0.09-13.33-10.25-20.32c9.42,1.61,16.15,0.08,20.12-9.53c-5.66-3.74-12.88-4.03-22.29,4.2 c3.49-9.58,3.34-18.02-2.92-22.72c-6.09,4.9-8.47,10.95-3.64,22.96c-22.22-18.35-28.43,4.89-7.05,5.62L81.58,79.21L81.58,79.21z M52.87,22.91c3.71,0,6.72,3.01,6.72,6.72s-3.01,6.72-6.72,6.72c-3.71,0-6.72-3.01-6.72-6.72S49.16,22.91,52.87,22.91L52.87,22.91z\"/></g></svg>",
           "resourceTitle": "Resource Title",
           "resourceDesc": "<p class=\"rteBlock\">The description or additional informaiton goes here.</p>",
-          "buttonText": "Learn More"
+          "buttonText": "Learn More",
+          "showButton": false,
+          "buttonLink": "",
+          "showImage": false,
+          "showIcon": false,
+          "hideDesc": false
         },
         {
           "img": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/PLACEHOLDER+IMAGE.png",
           "resourceIcon": "<?xml version=\"1.0\" encoding=\"utf-8\"?><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 117.52 122.88\" style=\"enable-background:new 0 0 117.52 122.88\" xml:space=\"preserve\"><g><path d=\"M81.58,79.21c-8.16,2.61-14.62,8.87-18.76,16.52c2.74-14.44,6.24-31.51,1.21-45.79c7.34,7.34,15.51-2.78,9.82-8.47 l-5.37-5.37h7.59c8.5,0,8.5-12.94,0-12.94h-7.59l5.37-5.37c6.01-6.01-3.14-15.16-9.15-9.15l-5.37,5.37v-7.6 c0-8.59-12.94-8.52-12.94,0v7.59l-5.37-5.37c-6.01-6.01-15.16,3.14-9.15,9.15l5.37,5.37h-7.6c-8.5,0-8.5,12.94,0,12.94l7.6,0 l-5.37,5.37c-6.01,6.01,3.14,15.16,9.15,9.15l5.37-5.37v7.6c0,8.21,12.94,9.24,12.94-0.78c1.61,9.46-2.32,27.71-4.04,44.03 c-4.05-8.08-10.71-14.59-19.36-16.88l-0.03,0c21.38-0.73,15.17-23.97-7.05-5.62c4.83-12.01,2.45-18.06-3.64-22.96 c-6.26,4.7-6.41,13.14-2.92,22.72C12.88,65.12,5.66,65.42,0,69.15c3.96,9.61,10.69,11.14,20.12,9.53C9.95,85.67,6.38,92.46,9.86,99 c8.68-0.85,13.13-6.91,15.06-16.88c2.39,11.26,7.66,16.61,15.99,17.11c1.73-6.48-0.15-12.77-9.44-19.15 c10.96,2.96,19.15,11.72,23.28,22.07c-0.5,7.45-0.27,14.16,1.51,18.97c0.52,1.44,1.99,2.13,3.28,1.56c1.29-0.58,1.92-2.21,1.4-3.64 c-0.68-2.81-0.66-6.25-0.26-10.14c1.43-6.58,4.53-13.16,9.18-18.49c4.16-4.79,9.6-8.55,16.16-10.32 c-9.29,6.37-11.17,12.67-9.44,19.15c8.33-0.49,13.6-5.84,15.99-17.11c1.94,9.97,6.39,16.03,15.06,16.88 c3.48-6.54-0.09-13.33-10.25-20.32c9.42,1.61,16.15,0.08,20.12-9.53c-5.66-3.74-12.88-4.03-22.29,4.2 c3.49-9.58,3.34-18.02-2.92-22.72c-6.09,4.9-8.47,10.95-3.64,22.96c-22.22-18.35-28.43,4.89-7.05,5.62L81.58,79.21L81.58,79.21z M52.87,22.91c3.71,0,6.72,3.01,6.72,6.72s-3.01,6.72-6.72,6.72c-3.71,0-6.72-3.01-6.72-6.72S49.16,22.91,52.87,22.91L52.87,22.91z\"/></g></svg>",
           "resourceTitle": "Resource Title",
           "resourceDesc": "<p class=\"rteBlock\">The description or additional informaiton goes here.</p>",
-          "buttonText": "Learn More"
+          "buttonText": "Learn More",
+          "showButton": false,
+          "buttonLink": "",
+          "showImage": false,
+          "showIcon": false,
+          "hideDesc": false
         }
       ],
       "hideShadow": false,
@@ -1317,7 +1421,8 @@
     "widgetVersion": "9",
     "widgetSettings": {
       "currentFolder": "Resources",
-      "navAlignment": "vertical"
+      "navAlignment": "vertical",
+      "desktopClickExpand": false
     }
   },
   {
@@ -1337,19 +1442,24 @@
       "undefined": "#f0f0f0",
       "navItems": [
         {
-          "itemText": "Page Name"
+          "itemText": "Page Name",
+          "itemLink": ""
         },
         {
-          "itemText": "Page Name"
+          "itemText": "Page Name",
+          "itemLink": ""
         },
         {
-          "itemText": "Page Name"
+          "itemText": "Page Name",
+          "itemLink": ""
         },
         {
-          "itemText": "Page Name"
+          "itemText": "Page Name",
+          "itemLink": ""
         }
       ],
-      "dividerSize": "1"
+      "dividerSize": "1",
+      "hideHeaderDivider": false
     }
   },
   {
@@ -1391,13 +1501,19 @@
     "widgetSettings": {
       "logo": [
         {
-          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png"
+          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png",
+          "logoAltText": "",
+          "ImgLink": ""
         },
         {
-          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png"
+          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png",
+          "logoAltText": "",
+          "ImgLink": ""
         },
         {
-          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png"
+          "ImgSrc": "https://irp.cdn-website.com/88dc655b/dms3rep/multi/Tukios-Logo-p-500.png",
+          "logoAltText": "",
+          "ImgLink": ""
         }
       ],
       "sliderSpeed": "50",
@@ -1419,7 +1535,8 @@
     "widgetSettings": {
       "placeholderText": "Find a loved one",
       "showBtn": true,
-      "listBtnText": "Visit Obituary Page"
+      "listBtnText": "Visit Obituary Page",
+      "btnLink": ""
     }
   },
   {
@@ -1472,7 +1589,8 @@
       "wednesdayLabel": "Wed",
       "thursdayLabel": "Thu",
       "fridayLabel": "Fri",
-      "saturdayLabel": "Sat"
+      "saturdayLabel": "Sat",
+      "linkEvents": false
     }
   },
   {
@@ -1527,7 +1645,8 @@
           "title": "Location Title",
           "largeTitle": "<p class=\"rteBlock\">Large Title</p><p class=\"rteBlock\">Text Box</p>",
           "description": "<p class=\"rteBlock\">Description or Contact Info (linkable)</p>",
-          "buttonText": "Get Directions"
+          "buttonText": "Get Directions",
+          "showImage": false
         },
         {
           "slideImage": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/fh-placeholder.jpg",
@@ -1535,7 +1654,8 @@
           "title": "Location Title",
           "largeTitle": "<p class=\"rteBlock\">Large Title</p><p class=\"rteBlock\">Text Box</p>",
           "description": "<p class=\"rteBlock\">Description or Contact Info (linkable)</p>",
-          "buttonText": "Get Directions"
+          "buttonText": "Get Directions",
+          "showImage": false
         },
         {
           "slideImage": "https://irp.cdn-website.com/5a1a405e/dms3rep/multi/fh-placeholder.jpg",
@@ -1543,13 +1663,16 @@
           "title": "Location Title",
           "largeTitle": "<p class=\"rteBlock\">Large Title</p><p class=\"rteBlock\">Text Box</p>",
           "description": "<p class=\"rteBlock\">Description or Contact Info (linkable)</p>",
-          "buttonText": "Get Directions"
+          "buttonText": "Get Directions",
+          "showImage": false
         }
       ],
       "iconAlign": "center",
       "arrowSize": "30",
       "showArrows": true,
-      "showDots": true
+      "showDots": true,
+      "linkColor": "",
+      "linkColorHover": ""
     }
   },
   {
